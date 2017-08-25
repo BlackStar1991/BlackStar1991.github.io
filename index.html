@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru-RU">
+
 <head>
     <meta charset="utf-8">
 
-    <title>SITE</title>
+    <title>Норфин</title>
     <!-- SEO -->
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -11,7 +12,6 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
     <!-- FAVICON -->
     <link rel="shortcut icon" href="image/favicon/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="image/favicon/apple-touch-icon.png">
@@ -28,259 +28,1029 @@
 <p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="http://browsehappy.com/">обновите</a>
     его.</p>
 <![endif]-->
-<!-========================================== HEADER ==========================================->
-<header class="header-page" id="anchor-top">
-    <div class="top-head-baner">
-        <div class="container">
-            <div class="top-head-baner__desc">
-                <strong class="top-head-baner__text-main">
-                    Летняя распродажа
-                </strong>
 
-                <span class="top-head-baner__text-sub">до</span>
-
-                <span class="top-head-baner__text-sale">-50%</span>
-            </div>
-
-            <a class="open-btn  top-head-baner__btn" href="#">
-                <i class="open-btn__ico"></i>
-
-                <span class="open-btn__text">Посмотреть</span>
-            </a>
-        </div>
-    </div>
-
-    <div class="services-baner">
-        <div class="container">
-            <div class="open-menu-min"></div>
-
-            <div class="open-menu-main">
-                Каталог
-            </div>
-
-            <div class="services-baner__list">
-                <ul class="serv-baner-info">
-                    <li class="serv-baner-item  serv-baner-info__item">
-                        <i class="serv-baner-item__ico  serv-baner-item--car"></i>
-
-                        <div class="serv-baner-item__text">
-                            Бесплатная доставка от 600 грн
-                        </div>
-                    </li>
-
-                    <li class="serv-baner-item  serv-baner-info__item">
-                        <i class="serv-baner-item__ico  serv-baner-item--clend"></i>
-
-                        <div class="serv-baner-item__text">
-                            14 дней на возврат
-                        </div>
-                    </li>
-
-                    <li class="serv-baner-item  serv-baner-info__item">
-                        <i class="serv-baner-item__ico  serv-baner-item--cash"></i>
-
-                        <div class="serv-baner-item__text">
-                            Наложенный платеж
-                        </div>
-                    </li>
-
-                    <li class="serv-baner-item  serv-baner-info__item">
-                        <i class="serv-baner-item__ico  serv-baner-item--sale"></i>
-
-                        <div class="serv-baner-item__text">
-                            Скидка до 50%
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="services-baner__lang">
-                <div class="leng">
-                    <div class="leng__active"></div>
-
-                    <div class="leng__list">
-                        <ul class="leng-list">
-                            <li class="leng-list__item  active">
-                                <a class="leng-item" href="#">
-                                    <i class="leng-item__ico leng-item__ico--ua"></i>
-                                    <span class="leng-item__text">ua</span>
-                                </a>
-                            </li>
-
-                            <li class="leng-list__item">
-                                <a class="leng-item" href="#">
-                                    <i class="leng-item__ico  leng-item__ico--ru"></i>
-                                    <span class="leng-item__text">ru</span>
-                                </a>
-                            </li>
+<!--======================================  HEADER ==========================================================-->
+<header id="header" class="header">
+    <div class="mainWrapper">
+        <div class="bl_fullNavigation">   <!-- bl_nav__mobile closeMenu  -->
+            <div class="container">
+                <div class="col-md-7 col-xs-6 correct_left ">
+                    <button class="open-menu-min hidden-lg ">Menu</button>
+                    <nav class="bl_nav">
+                        <ul class="bl_nav__fullItems">
+                            <li class="bl_nav__item"><a href="#" class="bl_nav__link">Доставка и оплата</a></li>
+                            <li class="bl_nav__item"><a href="#" class="bl_nav__link">Гарантия</a></li>
+                            <li class="bl_nav__item"><a href="#" class="bl_nav__link">Контакты</a></li>
+                            <li class="bl_nav__item"><a href="#" class="bl_nav__link">О магазине</a></li>
+                            <li class="bl_nav__item"><a href="#" class="bl_nav__link">Новости</a></li>
+                            <li class="bl_nav__item"><a href="#" class="bl_nav__link">Таблица размеров</a></li>
                         </ul>
+                    </nav>
+                </div>
+                <div class="col-md-5 col-xs-12">
+                    <div class="bl_control">
+                        <div class="bl_language dropdown">
+                            <span class="bl_language__active " data-toggle="dropdown">ua</span>
+                            <ul class="bl_language__variables dropdown-menu">
+                                <li class="bl_language__variables_item language-select">ua</li>
+                                <li class="bl_language__variables_item language-select">ru</li>
+                            </ul>
+                        </div>
+
+                        <div class="bl_currency dropdown">
+                            <span class="bl_currency__active" data-toggle="dropdown">грн</span>
+                            <ul class="bl_currency__variables dropdown-menu">
+                                <li class="bl_currency__variables_item currency-select">грн</li>
+                                <li class="bl_currency__variables_item currency-select">usd</li>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="bl_personalRoom__link bl_personalRoom__icon">Личный кабинет</a>
+
+                        <button class="btn_callBack"><span
+                                class="btn_callBack__text btn_icon__callBack">Заказать звонок</span></button>
+
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="header-desc  header-page__desc">
-        <div class="container">
-            <div class="header-desc__logo">
-                <a class="logo" href="#">
-                    <span class="logo__name">For.fun</span>
-
-                    <h1 class="logo__sub">Одежда, обувь & аксессуары</h1>
-                </a>
-            </div>
-
-            <div class="header-desc__search-menu">
-                <ul class="services-menu  header-desc__services-menu">
-                    <li class="services-menu__item">
-                        <a class="services-menu__link" href="">
-                            Доставка
-                        </a>
-                    </li>
-
-                    <li class="services-menu__item">
-                        <a class="services-menu__link" href="">
-                            Оплата
-                        </a>
-                    </li>
-
-                    <li class="services-menu__item">
-                        <a class="services-menu__link" href="">
-                            Контакты
-                        </a>
-                    </li>
-
-                    <li class="services-menu__item">
-                        <a class="services-menu__link" href="">
-                            О магазине
-                        </a>
-                    </li>
-                </ul>
-
-                <form class="head-search  header-desc__search">
-                    <button class="head-search__ico"></button>
-                    <input class="head-search__input" type="text" placeholder="Поиск">
-
-                    <div class="close-search"></div>
-                </form>
-            </div>
-
-            <div class="header-desc__phones">
-                <div class="open-call  header-desc__open-call">
-                    <i class="open-call__ico"></i>
-
-                    <div class="open-call__text">Заказать обратный звонок</div>
+        <div class="bl_fullControlsMenu">
+            <div class="container">
+                <div class="col-xs-12 col-md-2 correct_left">
+                    <a class="bl_logo__link" href="#">
+                        <img class="bl_logo__image" src="image/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-4 col-md-offset-1">
+                    <div class="bl_search">
+                        <div class="bl_wrappen">
+                            <input class="bl_search__field " type="text" placeholder="Найти">
+                            <button class="bl_search__button"></button>
+                        </div>
+                    </div>
                 </div>
 
-                <ul class="phones-list  header-desc__phones-list">
-                    <li class="phones-list__item">
-                        <a class="phones-list__link" href="tel:+380500000000">+38(050) 000-00-00</a>
-                    </li>
+                <div class="col-xs-12 col-md-4  col-md-offset-1 correct_right">
+                    <div class="bl_shoppingCart">
+                        <a href="#" class="bl_shoppingCart__link">
+                            <div class="bl_shoppingCart__icon"></div>
+                            <p class="bl_shoppingCart__allItems">
+                                <span class="bl_shoppingCart__text bl_shoppingCart__number">1</span>
+                                <span class="bl_shoppingCart__text">товар</span>
+                            </p>
+                            <p class="bl_shoppingCart__allItems">
+                                <span class="bl_shoppingCart__text bl_shoppingCart__fullPrice">980</span>
+                                <span class="bl_shoppingCart__text">грн</span>
+                            </p>
+                        </a>
+                    </div>
 
-                    <li class="phones-list__item">
-                        <a class="phones-list__link" href="tel:+380500000000">+38(050) 000-00-00</a>
-                    </li>
+                    <div class="bl_phones">
+                        <p class="bl_phones__text icon_calling">Прием заказов:</p>
+                        <div class="bl_phones__fullSize">
+                            <p class="bl_phones__number">+38 (050) 000-00-00</p>
+                            <p class="bl_phones__number">+38 (093) 000-00-00</p>
+                        </div>
+                    </div>
 
-                    <li class="phones-list__item">
-                        <a class="phones-list__link" href="tel:+380500000000">+38(050) 000-00-00</a>
-                    </li>
 
-                    <li class="phones-list__item">
-                        <a class="phones-list__link" href="tel:+380500000000">+38(050) 000-00-00</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="header-desc__cart-head">
-                <div class="cart-head">
-                    <a class="open-office  cart-head__title" href="">Личный кабинет</a>
-                    <i class="cart-head__ico"></i>
-                    <a class="cart-head__link" href="">1 шт. - 980грн</a>
                 </div>
-            </div>
 
-            <div class="mobile-ico">
-                <a class="mobile-ico__user" href="">
-                    <i class="mobile-ico__ico">
-                        <svg viewBox="0 0 1792 1792">
-                            <path d="M1600 1405q0 120-73 189.5t-194 69.5h-874q-121 0-194-69.5t-73-189.5q0-53 3.5-103.5t14-109 26.5-108.5 43-97.5 62-81 85.5-53.5 111.5-20q9 0 42 21.5t74.5 48 108 48 133.5 21.5 133.5-21.5 108-48 74.5-48 42-21.5q61 0 111.5 20t85.5 53.5 62 81 43 97.5 26.5 108.5 14 109 3.5 103.5zm-320-893q0 159-112.5 271.5t-271.5 112.5-271.5-112.5-112.5-271.5 112.5-271.5 271.5-112.5 271.5 112.5 112.5 271.5z"/>
-                        </svg>
-                    </i>
-                </a>
-
-                <div class="mobile-ico__search">
-                    <i class="mobile-ico__ico">
-                        <svg viewBox="0 0 512 512">
-                            <path d="M497.913,497.913c-18.782,18.782-49.225,18.782-68.008,0l-84.862-84.863c-34.889,22.382-76.13,35.717-120.659,35.717  C100.469,448.767,0,348.312,0,224.383S100.469,0,224.384,0c123.931,0,224.384,100.452,224.384,224.383  c0,44.514-13.352,85.771-35.718,120.676l84.863,84.863C516.695,448.704,516.695,479.131,497.913,497.913z M224.384,64.109  c-88.511,0-160.274,71.747-160.274,160.273c0,88.526,71.764,160.274,160.274,160.274c88.525,0,160.273-71.748,160.273-160.274  C384.657,135.856,312.909,64.109,224.384,64.109z"/>
-                        </svg>
-                    </i>
-                </div>
             </div>
         </div>
+        <nav class="bl_fullCategories">
+            <div class="container">
+                <div class="col-xs-12 correct_left correct_right">
+                    <button class="open-menu-main  hidden-md hidden-lg">Рубрики</button>
+
+                    <ul class="bl_fullCategories__field ">
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Одежда</a></li>
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Обувь</a></li>
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Кемпинг</a></li>
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Сертификаты</a>
+                        </li>
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Аксессуары</a>
+                        </li>
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Акции</a></li>
+                        <li class="bl_fullCategories__item"><a href="#" class="bl_fullCategories__link">Еще</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
     </div>
-
-    <nav class="main-nav  header-page__nav">
-        <div class="container">
-            <ul class="main-menu">
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        МУЖЧИНАМ
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        ЖЕНЩИНАМ
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        Детям
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        СУМКИ И РЮКЗАКИ
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        АКСЕССУАРЫ
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        Одежда
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        Обувь
-                    </a>
-                </li>
-
-                <li class="main-menu__item">
-                    <a class="main-menu__link" href="">
-                        БРЕНДЫ
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 </header>
 
+<!--======================================= MAIN ==========================================================-->
+<main class="main decor_snowflake1">
+    <div class="mainWrapper">
+
+        <div class="container correct_left correct_left">
+            <div class="col-xs-12 hidden-xs">
+                <ul class="bl_breadcrumbs">
+                    <li class="bl_breadcrumbs__item"><a class="bl_breadcrumbs__link" href="#">Главная</a></li>
+                    <li class="bl_breadcrumbs__item"><a class="bl_breadcrumbs__link" href="#">Название категории</a>
+                    </li>
+                    <li class="bl_breadcrumbs__item"><a class="bl_breadcrumbs__link bl_breadcrumbs__active"
+                                                        href="#">Название подкатегории</a></li>
+                </ul>
+            </div>
+        </div>
 
 
+        <div class="container correct_left correct_left">
+
+
+            <div class="container clearfix block_white">
+
+
+                <div class="bl_productName">
+                    <h2 class="bl_fullProduct__title">712001-S Костюм зимний Norfin Hunting Wild Passion (-30°)</h2>
+                    <div class="bl_raiting">
+                        <button class="bl_raiting__button">Оценить товар</button>
+
+                        <input class="bl_raiting__chackbox" id="raiting5" type="radio" name="raiting" value="5">
+                        <label class="bl_raiting__label" for="raiting5"></label>
+                        <input class="bl_raiting__chackbox" id="raiting4" type="radio" name="raiting" value="4">
+                        <label class="bl_raiting__label" for="raiting4"></label>
+                        <input class="bl_raiting__chackbox" id="raiting3" type="radio" name="raiting" value="3">
+                        <label class="bl_raiting__label" for="raiting3"></label>
+                        <input class="bl_raiting__chackbox" id="raiting2" type="radio" name="raiting" value="2">
+                        <label class="bl_raiting__label" for="raiting2"></label>
+                        <input class="bl_raiting__chackbox" id="raiting1" type="radio" name="raiting" value="1">
+                        <label class="bl_raiting__label" for="raiting1"></label>
+                    </div>
+                </div>
+
+
+                <div class="col-md-7 block_white">
+
+                    <div class="product_image">
+                        <div class="bl_wrappen">
+
+                            <div class="product_image__scaleIcon"></div>
+                            <div class="product_image__mainBlock">
+                                <a class="fancybox-animated" href="image/Products/slider1-big.jpg" title="">
+                                    <!-- фото товара большого размера для fancybox. должны лежать в той же папке что и обычные фото, иначе JS не сработает  -->
+                                    <img class="product_image__img" src="image/Products/slider1-big.jpg" alt=""
+                                         title="">
+                                </a>
+
+                            </div>
+
+                            <!-- В слайдер должны добавлятся полномасштабные фото! -->
+                            <ul class="product_image__slider owl-carousel">
+                                <li class="product_image__item">
+                                    <img class="product_image__sliderImg" src="image/Products/slider1.jpg"
+                                         alt="">
+                                </li>
+                                <li class="product_image__item">
+                                    <img class="product_image__sliderImg" src="image/Products/slider1.jpg"
+                                         alt="">
+                                </li>
+                                <li class="product_image__item">
+                                    <img class="product_image__sliderImg" src="image/Products/slider2.jpg"
+                                         alt="">
+                                </li>
+                                <li class="product_image__item">
+                                    <img class="product_image__sliderImg" src="image/Products/slider3.jpg"
+                                         alt="">
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-5 block_white">
+                    <div class="product_info">
+                        <p class="product_info__id">Код товара: <span class="product_info__id_text">518003-L</span>
+                        </p>
+                        <p class="product_info__productAvailability">На складе:
+                            <span class="product_info__productAvailability__yes">есть в наличии</span>
+                            <!--  выводи если товар есть -->
+                            <span class="product_info__productAvailability__no hidden">временно нету</span>
+                            <!--  выводи если товара нет -->
+                        </p>
+
+                        <div class="bl_price">
+                            <span class="bl_price__newPrice hidden">10 328 грн</span>
+                            <span class="bl_price__oldPrice hidden">11 138 грн</span>
+
+                            <span class="bl_price__normal">11 138 грн</span>  <!-- выводить когда нету акций -->
+                        </div>
+                        <div class="product_size">
+                            <p class="product_size__text product_size__text_min">Размер:</p>
+                            <label class="product_size__label">
+                                <input class="product_size__input" id="size_s" type="radio" name="productSize" value="">
+                                <span class="product_size__text">s</span>
+                            </label>
+                            <label class="product_size__label">
+                                <input class="product_size__input" id="size_m" type="radio" name="productSize" value="">
+                                <span class="product_size__text">m</span>
+                            </label>
+                            <label class="product_size__label">
+                                <input class="product_size__input" id="size_l" type="radio" name="productSize" value="">
+                                <span class="product_size__text">l</span>
+                            </label>
+                            <label class="product_size__label">
+                                <input class="product_size__input" id="size_xl" type="radio" name="productSize"
+                                       value="">
+                                <span class="product_size__text">xl</span>
+                            </label>
+                            <label class="product_size__label">
+                                <input class="product_size__input" id="size_xxl" type="radio" name="productSize"
+                                       value="">
+                                <span class="product_size__text">xxl</span>
+                            </label>
+                        </div>
+                        <div class="block_quantity">
+                            <p class="block_quantity__text">Количество:</p>
+                            <div class="block_quantity__box">
+                                <button class="block_quantity__minus"><span>-</span></button>
+                                <input class="block_quantity__input" type="text" value="1">
+                                <button class="block_quantity__plus"><span>+</span></button>
+                            </div>
+                        </div>
+                        <div class="bl_description">
+                            <p class="bl_description__text">Краткое описание:</p>
+
+                            <div class="bl_minInformationAboutProduct">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Consequuntur doloribus eius enim, eos expedita incidunt laborum
+                                    nesciunt nobis odit saepe.
+                                </p>
+                            </div>
+
+
+                            <div class="bl_description__box">
+                                <!-- количество div зависит от количества input class="product_size__input"  JS //// Short description -->
+                                <div class="product_sizeDescription">
+
+                                    <p>sssssssssssssssss s sssss s s s s ss s s sssssssssss
+                                        sssssssssssssssssssss s ssssssssssssss s s ss sssssssssssssss s ssss s ss
+                                    </p>
+                                </div>
+                                <div class="product_sizeDescription">
+                                    <p>aaaaaaaaaaaaa aaaaaaaa a a aaaaaaaaaaaaaa aaaaaaa Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit.
+                                        Ad aperiam eum fugiat nulla tempore. Dolore fugiat necessitatibus officiis
+                                        veritatis. A assumenda, eos id ipsam iure magni
+                                        officiis reiciendis totam voluptate?
+                                    </p>
+                                </div>
+                                <div class="product_sizeDescription">
+                                    <p>L L L L fdfdfds d fds fdsf sdf sdf df sdf Lorem ipsum dolor sit amet, consectetur
+                                        adipisicing elit. Delectus deserunt, natus non perspiciatis qui suscipit. s</p>
+                                </div>
+                                <div class="product_sizeDescription">
+                                    <p> xl xl xl xl lx lx lxl xl lxl lx lx Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Asperiores atque consectetur deserunt expedita
+                                        quibusdam? Magni?</p>
+                                </div>
+                                <div class="product_sizeDescription">
+                                    <p>XXL XLXLLL xx x xxxxxxxxxxx x x x xxxxxxxxxxxx Lorem ipsum dolor sit amet,
+                                        consectetur adipisicing elit. Adipisci fuga laudantium praesentium qui unde,
+                                        veniam.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="button_buy"><span class="button_buy__text">Купить</span></button>
+
+
+                        <div class="bl_buyOneClick">
+                            <p class="bl_buyOneClick__text">
+                                Купить в 1 клик:
+                            </p>
+                            <div class="btn_buy__overflow">
+                                <input class="btn_buy__input" type="tel" placeholder="+38 (0XX) XXX-XX-XX">
+                                <button class="btn_buy__send">
+                                    <i class="icon_buy"></i>
+                                </button>
+                            </div>
+                            <span class="error_text hidden">Введите, пожалуйста, номер своего мобильного телефона</span>
+                            <!-- Если ошибка, убирать класс hidden показывать текст -->
+
+                        </div>
+
+                        <div class="bl_productDelivery">
+                            <p class="bl_productDelivery__text bl_productDelivery__text_mainText">Способы
+                                доставки:</p>
+                            <p class="bl_productDelivery__text">Самовывоз: <span class="color_red">БЕСПЛАТНО</span>
+                            </p>
+                            <p class="bl_productDelivery__text">Курьером: <span class="color_red">БЕСПЛАТНО</span>
+                            </p>
+                            <p class="bl_productDelivery__text">
+                                <span class="bl_productDelivery__text_valueDelivery">Пункт «Нова Пошта»:</span>
+                                <span
+                                        class="bl_productDelivery__text_simplePrice">35 грн</span> <span
+                                    class="bl_productDelivery__text_city">(Киев)</span></p>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="container correct_right correct_left">
+                <div class="col-xs-12 correct_left correct_right">
+
+                    <div class="bl_productAdvantages">
+                        <div class="bl_productAdvantagesDelivery">
+                            <div class="bl_productAdvantagesDelivery__icon-delivery"></div>
+                            <p class="bl_advantages__title">
+                                Условия доставки
+                            </p>
+                            <div class="bl_advantages__allVariants">
+                                <p class="bl_advantages__text">
+                                    <span>Доставка по Украине — 35 грн.</span>
+                                    <span>От 600 грн — бесплатно.</span>
+                                </p>
+
+                                <p class="bl_advantages__text">
+                                    <span>Доставка по Киеву — 50 грн.</span>
+                                    <span>От 600 грн — бесплатно</span>
+                                </p>
+                                <a class="bl_advantages__link" href="#">Подробнее о доставке</a>
+                                <!-- отсылает на страницу доставки -->
+                            </div>
+                        </div>
+
+                        <div class="bl_productAdvantagesPayment">
+                            <div class="bl_productAdvantagesPayment__icon-cart"></div>
+                            <p class="bl_advantages__title">
+                                Оплата при получении
+                            </p>
+                            <div class="bl_advantages__allVariants">
+                                <p class="bl_advantages__text">Оплата производится наличными при получении товара.</p>
+                                <p class="bl_advantages__text">Также у нас предусмотрен безналичный расчет.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="bl_productAdvantagesExchange">
+                            <div class="bl_productAdvantagesExchange__icon-return"></div>
+                            <p class="bl_advantages__title">
+                                Возврат и обмен
+                            </p>
+                            <div class="bl_advantages__allVariants">
+                                <p class="bl_advantages__text">Если вас не устроил товар вы можете вернуть деньги или
+                                    обменять его.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 correct_left correct_right">
+                    <div class="inf_product">
+
+                        <ul class="nav nav-tabs inf_product__tabs">
+                            <li class="inf_product__item active ">
+                                <a href="#tab-description" data-toggle="tab">Описание</a>
+                            </li>
+
+                            <li class="inf_product__item  ">
+                                <a href="#tab-specification" data-toggle="tab">Характеристики</a>
+                            </li>
+
+                            <li class="inf_product__item  ">   <!-- Выводить только если для товара есть видио -->
+                                <a href="#tab-video" data-toggle="tab">Видео</a>
+                            </li>
+                            <!-- end -->
+
+                            <li class="inf_product__item ">
+                                <a href="#tab-review" data-toggle="tab">Отзывы</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab-description">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                        nulla
+                                        pariatur.
+                                    </li>
+
+                                    <li> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                    </li>
+
+                                    <li>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                                        quia
+                                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                        porro
+                                        quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                        velit,
+                                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                        aliquam
+                                        quaerat voluptatem.
+                                    </li>
+
+                                    <li> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                        deserunt
+                                        mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                                        voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                                        ab
+                                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                    </li>
+
+                                    <li>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+                                        quia
+                                        consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                                        porro
+                                        quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                        velit,
+                                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam
+                                        aliquam
+                                        quaerat voluptatem.
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+
+                            <div class="tab-pane " id="tab-specification">
+                                <table class="table  table-bordered">
+                                    <tbody>
+                                    <tr>
+                                        <td>Бренд:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Серия:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Длина:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ширина:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Высота:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Толщина:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Материал:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Цвет:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Объем:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Бренд:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Серия:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Длина:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ширина:</td>
+                                        <td>Lorem ipsum.</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+
+                            <div class="tab-pane " id="tab-video">   <!-- Выводить только если для товара есть видио -->
+                                <div class="bl_video">
+
+                                    <p class="bl_video__text">Видио о товаре</p>
+                                    <h2 class="bl_video__text">Костюм зимний Norfin Hunting Wild Passion</h2>
+
+                                    <div class="bl_video_wrapper">
+                                        <iframe class="bl_video_videoAboutProduct"
+                                                src="https://www.youtube.com/embed/xIVTtFsBUVY" frameborder="0"
+                                                allowfullscreen></iframe>  <!-- видио кото -->
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <!-- end -->
+
+                            <div class="tab-pane" id="tab-review">
+
+                                <div class="review_allReview">
+
+                                    <div class="review_item">
+                                        <p class="review_item__userName">User Name</p>
+                                        <time class="review_item__time">01.08.2017</time>
+                                        <p class="review_item__raiting"><span>Рейтинг пользователя</span>
+                                            <span>4</span><span>/5</span></p>
+                                        <p class="review_item__fullReview">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur eos laborum magni quam quod ratione repudiandae suscipit tempora veniam! Aspernatur, atque corporis dignissimos minima nam officia provident quasi quia!</span>
+                                            <span>Alias, amet autem cum cumque delectus, deleniti dignissimos doloribus dolorum facilis illum incidunt iure iusto, laboriosam laborum maxime minus natus necessitatibus perspiciatis quaerat quis repellendus saepe sed similique suscipit unde!</span>
+                                            <span>Assumenda at consectetur cumque cupiditate, dicta obcaecati quas qui ut. Ad consequuntur culpa cumque deleniti, dolores dolorum, harum id inventore nihil porro praesentium quae sunt vel! Atque fugiat possimus similique.</span>
+                                            <span>Accusamus dolorem earum eos error exercitationem, fugiat, id incidunt laudantium nobis obcaecati provident quae quasi quo similique veniam? Aliquam aliquid animi autem dolore dolorem, eos error facere minima odio sit!</span>
+                                            <span>At atque cum facilis optio quia quibusdam quis recusandae! Adipisci architecto consequatur debitis dicta dolore, enim esse est eum, iure labore laborum necessitatibus obcaecati quibusdam quos repudiandae saepe sit unde.</span>
+                                            <span>Ab, aperiam autem dolor dolorem hic iure iusto nobis nulla voluptas? Eligendi esse, eum ipsa laudantium maxime modi non nulla perspiciatis quae, quibusdam temporibus velit veritatis voluptatem! Asperiores, repellat, tempore!</span>
+                                            <span>Aliquam animi aut blanditiis culpa delectus ea esse facilis hic iste laboriosam maiores minus molestiae neque nihil odit quasi quia, quis quisquam ratione repudiandae sapiente sed sunt suscipit veniam veritatis.</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="review_item">
+                                        <p class="review_item__userName">User Name</p>
+                                        <time class="review_item__time">01.08.2017</time>
+                                        <p class="review_item__raiting"><span>Рейтинг пользователя</span>
+                                            <span>1</span><span>/5</span></p>
+                                        <p class="review_item__fullReview">
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consectetur eos laborum magni quam quod ratione repudiandae suscipit tempora veniam! Aspernatur, atque corporis dignissimos minima nam officia provident quasi quia!</span>
+                                            <span>Alias, amet autem cum cumque delectus, deleniti dignissimos doloribus dolorum facilis illum incidunt iure iusto, laboriosam laborum maxime minus natus necessitatibus perspiciatis quaerat quis repellendus saepe sed similique suscipit unde!</span>
+                                            <span>Assumenda at consectetur cumque cupiditate, dicta obcaecati quas qui ut. Ad consequuntur culpa cumque deleniti, dolores dolorum, harum id inventore nihil porro praesentium quae sunt vel! Atque fugiat possimus similique.</span>
+                                            <span>Accusamus dolorem earum eos error exercitationem, fugiat, id incidunt laudantium nobis obcaecati provident quae quasi quo similique veniam? Aliquam aliquid animi autem dolore dolorem, eos error facere minima odio sit!</span>
+                                            <span>At atque cum facilis optio quia quibusdam quis recusandae! Adipisci architecto consequatur debitis dicta dolore, enim esse est eum, iure labore laborum necessitatibus obcaecati quibusdam quos repudiandae saepe sit unde.</span>
+                                            <span>Ab, aperiam autem dolor dolorem hic iure iusto nobis nulla voluptas? Eligendi esse, eum ipsa laudantium maxime modi non nulla perspiciatis quae, quibusdam temporibus velit veritatis voluptatem! Asperiores, repellat, tempore!</span>
+                                            <span>Aliquam animi aut blanditiis culpa delectus ea esse facilis hic iste laboriosam maiores minus molestiae neque nihil odit quasi quia, quis quisquam ratione repudiandae sapiente sed sunt suscipit veniam veritatis.</span>
+                                        </p>
+                                    </div>
+
+
+                                </div>
+
+
+                                <form class="form-horizontal personal-form-review" id="form-review">
+                                    <div id="review"><p>У данного товара пока нету отзывов, будь первым</p></div>
+                                    <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> Пожалуйста,
+                                        выберите оценку товара!
+                                    </div>
+                                    <div class="col-xs-12 review_product">
+                                        <p class="review_product__title">Написать отзыв о</p>
+                                        <h2 class="review_product__title review_product__title__bold">Костюм зимний
+                                            Norfin
+                                            Hunting Wild Passion (-30°)</h2>
+
+                                        <p>Оставить отзыв</p>
+                                    </div>
+
+                                    <div class="form-group required review_form clearfix">
+                                        <div class="col-sm-6">
+                                            <input class="form-control review_name" type="text" name="name" value=""
+                                                   placeholder="Ваше имя:">
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="bl_review__raiting">
+                                                <span class="review_text">Оценить товар</span>
+
+                                                <div class="bl_review__raitingFull">
+                                                    <input class="bl_raiting__chackbox" id="review_star5" type="radio"
+                                                           name="raiting" value="5">
+                                                    <label class="bl_raiting__label" for="review_star5"></label>
+
+                                                    <input class="bl_raiting__chackbox" id="review_star4" type="radio"
+                                                           name="raiting" value="4">
+                                                    <label class="bl_raiting__label" for="review_star4"></label>
+
+                                                    <input class="bl_raiting__chackbox" id="review_star3" type="radio"
+                                                           name="raiting" value="3">
+                                                    <label class="bl_raiting__label" for="review_star3"></label>
+
+                                                    <input class="bl_raiting__chackbox" id="review_star2" type="radio"
+                                                           name="raiting" value="2">
+                                                    <label class="bl_raiting__label" for="review_star2"></label>
+
+                                                    <input class="bl_raiting__chackbox" id="review_star1" type="radio"
+                                                           name="raiting" value="1">
+                                                    <label class="bl_raiting__label" for="review_star1"></label>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group required">
+                                        <div class="col-sm-12">
+                                        <textarea class="form-control review_textarea" name="text" rows="5"
+                                                  id="input-review" placeholder="Текст сообщения"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <button class="button_buy clearfix" type="button" id="button-review"
+                                            data-loading-text="Загрузка...">
+                                        <span class="button_buy__text">Отправить</span>
+                                    </button>
+
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="bl_withThisProductBuy">
+                        <h2 class="title_name bl_withThisProductBuy__title">С этим товаром покупают:</h2>
+
+                        <ul class="slider_withThisProductBuy owl-carousel">
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bl_youViewed clearfix">
+                        <h2 class="title_name bl_youViewed__title">Вы смотрели:</h2>
+
+                        <ul class="slider_youViewed owl-carousel">
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                            <li class="product_sliderCart__item">
+                                <div class="product_sliderCart__item_wrapper">
+
+                                    <a href="#" class="product_sliderCart__link">
+                                        <img class="product_sliderCart__image" src="image/Products/product_1.jpg"
+                                             alt="">
+                                        <h2 class="product_sliderCart__name">
+                                            Рюкзак тактический Norfin TACTIC 45 45л / NF
+                                        </h2>
+                                    </a>
+
+                                    <div class="product_sliderCart__price clearfix">
+                                        <span class="product_sliderCart__price_oldPrice">2034 грн.</span>
+                                        <span class="product_sliderCart__price_newPrice">100 грн.</span>
+                                        <!--<span class="product_sliderCart__price_normalPrice">100 грн.</span>  ///Если акции нету -->
+                                    </div>
+                                    <button type="button" class="product_sliderCart__buy"><span
+                                            class="product_sliderCart__buy_text">Купить</span></button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+</main>
+
+<!--====================================== FOOTER  ====================================================-->
+<footer class="footer">
+    <div class="footer_firstPart">
+        <div class="mainWrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                        <h2 class="footer_title code_information__title">Информация:</h2>
+                        <ul class="footer_fullPages code_information__full">
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link"
+                                                                  href="#">Доставка и Оплата</a></li>
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link" href="#">Гарантия</a>
+                            </li>
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link" href="#">Контакты</a>
+                            </li>
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link" href="#">О магазине</a>
+                            </li>
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link" href="#">Новости</a>
+                            </li>
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link" href="#">Акции</a></li>
+                            <li class="footer_fullPages__item"><a class="footer_fullPages__link"
+                                                                  href="#">Таблица размеров</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-offset-2 col-md-3">
+                        <h2 class="footer_title code_contacts__title">Контакты:</h2>
+                        <div class="code_contacts__full">
+                            <div class="footer_fullPages">
+                                <p class="footer_fullPages__contacts">+38 044 451-51-00</p>
+                                <p class="footer_fullPages__contacts">+38 044 451-51-00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-offset-1 col-md-4">
+                        <h2 class="footer_title code_adress__title">Адрес:</h2>
+                        <div class="code_adress__full">
+                            <div class="footer_fullPages">
+                                <p class="footer_fullPages__adress">Украина, г.Киев</p>
+                                <p class="footer_fullPages__adress">ул. Красноткацкая, 43</p>
+                            </div>
+                            <a class="footer_fullPages__adress footer_fullPages__map icon-map"
+                               href="#">Карта проезда</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer_secondPart">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <a class="footer_secondPart__description" href="#">2011-2017 norfin.kiev.ua</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <div class="blackWrapper hidden"></div>
+
+
+
+
+<!-- CallBack Form -->
+<div class="bl_callBack hidden">
+    <div class="bl_wrappen">
+        <button type="button" class="bl_callBack__close">
+            <i class="fa fa-times decor_icon__close" aria-hidden="true"></i>
+        </button>
+
+
+        <p class="bl_callBack__text"> Укажите ваше Имя </p>
+        <input class="bl_callBack__input" type="text" placeholder="Имя">
+        <p class="error_text bl_callBack__error">*Вы не указали Имя</p>
+        <p class="bl_callBack__text">Укажите номер Вашего телефона</p>
+        <input class="bl_callBack__input" type="tel" placeholder="+38 (0XX) XXX-XX-XX">
+        <p class="error_text bl_callBack__error">*Вы не указали мобильный</p>
+
+        <button type="button" class="bl_callBack__submit">Отправить</button>
+
+    </div>
+</div>
+
+
+<!-- ANCOR -->
+<div class="bl_ancor hidden-xs hidden">
+    <div class="wrappenBlock">
+        <a class="bl_ancor__link icon-snomflake" href="#header">Вверх</a>
+    </div>
+</div>
+
+<!-- Success Buying -->
+<div class="bl_successBuying hidden">
+    <div class="bl_wrappen">
+        <button type="button" class="bl_successBuying__close">
+            <i class="fa fa-times decor_icon__close" aria-hidden="true"></i>
+        </button>
+
+        <p class="bl_successBuying__text decor_icon__seccuess"> Спасибо за покупку </p>
+        <p class="bl_successBuying__text">Mенеджер сайта в ближайшее время свяжется с вами</p>
+    </div>
+</div>
+
+
 <script src="libs/jquery.min.js"></script>
 
 <script src="js/libs.min.js"></script>
 <script src="js/common.min.js"></script>
 
+
 </body>
+
 </html>
