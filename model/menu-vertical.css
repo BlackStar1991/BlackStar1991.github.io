@@ -1,0 +1,195 @@
+
+#menu-v li, #menu-v a {zoom:1;} /* Hacks for IE6, IE7 */
+
+.menu-v-hid, #menu-v ul
+{
+    width: 330px; /* Main Menu Item widths */
+    border: 1px solid #ccc;
+    border-top:none;
+    position: absolute; font-size:0;
+    list-style: none; margin: 0; padding: 0; display:block;
+    z-index:9;
+	visibility:hidden;
+}                
+.menu-v-vis, #menu-v ul
+{
+    width: 330px; /* Main Menu Item widths */
+    border: 1px solid #ccc;
+    border-top:none;
+    position: absolute; font-size:0;
+    list-style: none; margin: 0; padding: 0; display:block;
+    z-index:9;
+	visibility:visible;
+	
+}
+
+.cat_but{
+	z-index:10;
+	position:relative;
+	
+	width: 100%;
+	height:35px;
+	margin-left: 5px;
+ 	padding: 0;
+	border:0;
+	text-align: left;
+	
+}
+
+
+/*
+.cat_but:hover{
+	z-index:10;
+	background: #FCF;
+	cursor:pointer;
+}
+*/
+
+/* Top level menu links style
+---------------------------------------*/
+
+
+#menu-v li
+{
+    background: #FFF url(images/bg.gif) repeat-x 0 2px;
+    list-style: none; margin: 0; padding: 0;
+}
+
+
+#menu-v li a
+{
+    font: normal 14px Arial;
+    border-top: 1px solid #ccc;
+    display: block;
+    /*overflow: auto; force hasLayout in IE7 */
+    color: #06C;
+    text-decoration: none;
+    line-height:35px;
+    padding-left:26px;            
+}
+
+#menu-v li a:hover
+{
+    color: #FF6666;
+}
+
+#menu-v ul li a
+{
+    line-height:35px;
+}
+
+#menu-v ul li a:hover
+{
+    color: #FF6666;
+}
+                
+#menu-v li a.arrow:hover
+{
+    background-image:url(images/arrowon.gif);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    color: #FF6666;
+    
+}
+        
+/*Sub level menu items
+---------------------------------------*/
+#menu-v li ul
+{
+    position: absolute;
+    width: 330px; /*Sub Menu Items width */
+    visibility:hidden;
+}
+        
+#menu-v a.arrow
+{
+    background-image:url(images/arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+}
+#menu-v li:hover, #menu-v li.onhover
+{
+    background-position:0 -62px;
+    
+}
+#menu-v ul li
+{
+    background: rgba(255, 255, 255, 0.86);
+    background-image:none;
+}
+#menu-v ul li:hover, #menu-v ul li.onhover
+{
+    background: #FFF;
+    background-image:none;
+    
+}
+        
+/* Holly Hack for IE \
+* html #menu-v  li
+{
+    float:left;
+    height: 1%;
+}
+* html #menu-v  li a
+{
+    height: 1%;
+}*/
+/* End */
+
+
+
+
+.buttonStartMenu {
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #FFF;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  cursor:default;
+}
+
+.buttonStartMenu:active {
+ /* top: .3em;*/
+  left: .3em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  color: #66FF99;
+}
+
+.buttonStartMenu:hover {
+ /* top: .3em;*/
+  left: .3em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.buttonStartMenuShow {
+  z-index:10;
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #FFF;
+  outline: none;
+  border: 2px solid #F64C2B;
+  border-radius: 5px;
+  background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+  cursor:default;
+/*  top: .3em;*/
+  left: .3em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  
+}
