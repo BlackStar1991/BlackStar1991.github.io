@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /gamehall
+Disallow: /gamehall/casino.php
+
+User-agent: Yandex
+Disallow: /gamehall
+Disallow: /gamehall/casino.php
+Sitemap: https://vulkangold.com/sitemap.xml
+Host: https://vulkangold.com/
