@@ -2,7 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/___index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/micons/fonts/icomoon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/micons/micons.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/vendor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/librebaskerville/librebaskerville-bold-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/librebaskerville/librebaskerville-bold-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/librebaskerville/librebaskerville-italic-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/librebaskerville/librebaskerville-italic-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/librebaskerville/librebaskerville-regular-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/librebaskerville/librebaskerville-regular-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/lightgallery/lg.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/lightgallery/lg.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/lightgallery/lg.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/lightgallery/lg.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat/montserrat-bold-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat/montserrat-bold-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat/montserrat-regular-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/montserrat/montserrat-regular-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gamehall/casino.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-06.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-07.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-09.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkan24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkan777.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkancasino.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkanclub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkanonline.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkanoriginal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/casino-logos/vulkanstars.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/contact-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/hero-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/hero-bg2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/howtochoose-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/ikvulkan.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/lightgallery/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/lightgallery/video-play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/lightgallery/vimeo-play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/lightgallery/youtube-play.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/originals.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/platinum.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/portfolio/gallery/g-shutterbug.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/portfolio/shutterbug.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vipvulkan.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vlko.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vulkan24.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vulkan24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vulkancasino.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vulkanchampion.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vulkanplaycasino.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/images/vulkanstavka.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/inc/sendEmail.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/casino.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-2.1.3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/modernizr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/pace.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/plugins.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vulkans/vulkan24.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vulkans/vulkan777.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vulkans/vulkanclub.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vulkans/vulkanonline.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vulkans/vulkanoriginals.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vulkans/vulkanstars.png" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,10 +107,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+              <folding>
+                <element signature="e#1508#1514#0" expanded="true" />
+                <element signature="e#1514#1520#0" expanded="true" />
+                <element signature="e#1520#1526#0" expanded="true" />
+                <element signature="e#1526#1532#0" expanded="true" />
+                <element signature="e#1532#1538#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -84,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,7 +226,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -130,17 +260,19 @@
       <option name="presentableId" value="Default" />
       <updated>1519998036355</updated>
       <workItem from="1519998038180" duration="1250000" />
-      <workItem from="1523015305030" duration="189000" />
+      <workItem from="1523015305030" duration="839000" />
+      <workItem from="1528968570178" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1439000" />
+    <option name="totallyTimeSpent" value="2332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -175,14 +307,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#1508#1514#0" expanded="true" />
+            <element signature="e#1514#1520#0" expanded="true" />
+            <element signature="e#1520#1526#0" expanded="true" />
+            <element signature="e#1526#1532#0" expanded="true" />
+            <element signature="e#1532#1538#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="160">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#1508#1514#0" expanded="true" />
+            <element signature="e#1514#1520#0" expanded="true" />
+            <element signature="e#1520#1526#0" expanded="true" />
+            <element signature="e#1526#1532#0" expanded="true" />
+            <element signature="e#1532#1538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
