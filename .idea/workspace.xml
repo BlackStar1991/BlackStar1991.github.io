@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/casinos/vulkan-online.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/casinos/vulkan.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/flags/azerbaijan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/flags/georgia.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/flags/poland.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/flags/rus.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/flags/ua.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/flags/usa.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/amatic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/aristocrat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/belatra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/betsoft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/egt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/elk.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/endorphina.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/igrosoft.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/igt.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/megajack.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/micra.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/mrslotty.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/netent.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/nextgen.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/novomatic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/nyx.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/playtech.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/push-gaming.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/quickspin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/thunderkick.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/unicum.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/casino_table_img/slot-icons/ygg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/prepros-6.config" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/style.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -224,12 +189,12 @@
       <workItem from="1528970568786" duration="13955000" />
       <workItem from="1529054341726" duration="1212000" />
       <workItem from="1529305263471" duration="1214000" />
-      <workItem from="1529335085968" duration="103000" />
+      <workItem from="1529335085968" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20127000" />
+    <option name="totallyTimeSpent" value="20771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
