@@ -3,6 +3,58 @@
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/libs.min.css" afterPath="$PROJECT_DIR$/css/libs.min.css" />
+      <change beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="$PROJECT_DIR$/css/main.min.css" />
+      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/Peace Sans.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/bonuses/netgame.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/bonuses/penguine.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/bonuses/slotoking.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/bonuses/vulcan.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" />
+      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" />
+      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" />
+      <change beforePath="$PROJECT_DIR$/image/favicon/favicon.ico" afterPath="$PROJECT_DIR$/image/favicon/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/image/footer_partners/endorphina.png" afterPath="$PROJECT_DIR$/image/footer_partners/endorphina.png" />
+      <change beforePath="$PROJECT_DIR$/image/footer_partners/igrosoft.png" afterPath="$PROJECT_DIR$/image/footer_partners/igrosoft.png" />
+      <change beforePath="$PROJECT_DIR$/image/footer_partners/microgaming.png" afterPath="$PROJECT_DIR$/image/footer_partners/microgaming.png" />
+      <change beforePath="$PROJECT_DIR$/image/footer_partners/netent.png" afterPath="$PROJECT_DIR$/image/footer_partners/netent.png" />
+      <change beforePath="$PROJECT_DIR$/image/footer_partners/thunderkick.png" afterPath="$PROJECT_DIR$/image/footer_partners/thunderkick.png" />
+      <change beforePath="$PROJECT_DIR$/image/rating_half-rtl.png" afterPath="$PROJECT_DIR$/image/rating_half-rtl.png" />
+      <change beforePath="$PROJECT_DIR$/image/rating_half.png" afterPath="$PROJECT_DIR$/image/rating_half.png" />
+      <change beforePath="$PROJECT_DIR$/image/rating_off.png" afterPath="$PROJECT_DIR$/image/rating_off.png" />
+      <change beforePath="$PROJECT_DIR$/image/rating_on.png" afterPath="$PROJECT_DIR$/image/rating_on.png" />
+      <change beforePath="$PROJECT_DIR$/image/rating_over.png" afterPath="$PROJECT_DIR$/image/rating_over.png" />
+      <change beforePath="$PROJECT_DIR$/image/smartSearch/1.jpg" afterPath="$PROJECT_DIR$/image/smartSearch/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/image/sprite.png" afterPath="$PROJECT_DIR$/image/sprite.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-big-hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-triangle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow.png" afterPath="$PROJECT_DIR$/image/sprite/icon-arrow.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-bonuses.png" afterPath="$PROJECT_DIR$/image/sprite/icon-bonuses.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-category.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-close-bonus.png" afterPath="$PROJECT_DIR$/image/sprite/icon-close-bonus.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-games.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-info.png" afterPath="$PROJECT_DIR$/image/sprite/icon-info.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-menu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-news.png" afterPath="$PROJECT_DIR$/image/sprite/icon-news.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-play-big.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-play.png" afterPath="$PROJECT_DIR$/image/sprite/icon-play.png" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-rus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-search.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/sprite/icon-ua.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/svg-elements/18plus.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/svg-elements/board-dots.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/svg-elements/gambleaware.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/image/vulkangaming_logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/js/common.min.js" afterPath="$PROJECT_DIR$/js/common.min.js" />
+      <change beforePath="$PROJECT_DIR$/js/libs.min.js" afterPath="$PROJECT_DIR$/js/libs.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,18 +64,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -113,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -125,7 +167,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,16 +207,18 @@
       <workItem from="1529305263471" duration="1214000" />
       <workItem from="1529335085968" duration="747000" />
       <workItem from="1531732916800" duration="676000" />
+      <workItem from="1534237610539" duration="572000" />
+      <workItem from="1537777889985" duration="516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21447000" />
+    <option name="totallyTimeSpent" value="22535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12674543" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12996778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -206,67 +249,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.css" />
     <entry file="file://$PROJECT_DIR$/style.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
   </component>
 </project>
