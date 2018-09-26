@@ -3,58 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/libs.min.css" afterPath="$PROJECT_DIR$/css/libs.min.css" />
-      <change beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="$PROJECT_DIR$/css/main.min.css" />
-      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/Peace Sans.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Peace_Sans/PeaceSans.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/netgame.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/penguine.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/slotoking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/vulcan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/favicon.ico" afterPath="$PROJECT_DIR$/image/favicon/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/endorphina.png" afterPath="$PROJECT_DIR$/image/footer_partners/endorphina.png" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/igrosoft.png" afterPath="$PROJECT_DIR$/image/footer_partners/igrosoft.png" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/microgaming.png" afterPath="$PROJECT_DIR$/image/footer_partners/microgaming.png" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/netent.png" afterPath="$PROJECT_DIR$/image/footer_partners/netent.png" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/thunderkick.png" afterPath="$PROJECT_DIR$/image/footer_partners/thunderkick.png" />
-      <change beforePath="$PROJECT_DIR$/image/rating_half-rtl.png" afterPath="$PROJECT_DIR$/image/rating_half-rtl.png" />
-      <change beforePath="$PROJECT_DIR$/image/rating_half.png" afterPath="$PROJECT_DIR$/image/rating_half.png" />
-      <change beforePath="$PROJECT_DIR$/image/rating_off.png" afterPath="$PROJECT_DIR$/image/rating_off.png" />
-      <change beforePath="$PROJECT_DIR$/image/rating_on.png" afterPath="$PROJECT_DIR$/image/rating_on.png" />
-      <change beforePath="$PROJECT_DIR$/image/rating_over.png" afterPath="$PROJECT_DIR$/image/rating_over.png" />
-      <change beforePath="$PROJECT_DIR$/image/smartSearch/1.jpg" afterPath="$PROJECT_DIR$/image/smartSearch/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/image/sprite.png" afterPath="$PROJECT_DIR$/image/sprite.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-big-hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-big.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-hover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow-triangle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-arrow.png" afterPath="$PROJECT_DIR$/image/sprite/icon-arrow.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-bonuses.png" afterPath="$PROJECT_DIR$/image/sprite/icon-bonuses.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-category.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-close-bonus.png" afterPath="$PROJECT_DIR$/image/sprite/icon-close-bonus.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-games.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-info.png" afterPath="$PROJECT_DIR$/image/sprite/icon-info.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-menu.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-news.png" afterPath="$PROJECT_DIR$/image/sprite/icon-news.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-play-big.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-play.png" afterPath="$PROJECT_DIR$/image/sprite/icon-play.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-rus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-search.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-ua.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg-elements/18plus.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg-elements/board-dots.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg-elements/gambleaware.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/vulkangaming_logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/common.min.js" afterPath="$PROJECT_DIR$/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/js/libs.min.js" afterPath="$PROJECT_DIR$/js/libs.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -208,12 +156,12 @@
       <workItem from="1529335085968" duration="747000" />
       <workItem from="1531732916800" duration="676000" />
       <workItem from="1534237610539" duration="572000" />
-      <workItem from="1537777889985" duration="516000" />
+      <workItem from="1537777889985" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22535000" />
+    <option name="totallyTimeSpent" value="23252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
