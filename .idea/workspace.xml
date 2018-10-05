@@ -13,21 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.min.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/common.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="580">
+              <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -136,11 +126,6 @@
               <item name="BlackStar1991.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlackStar1991.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="BlackStar1991.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlackStar1991.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -200,12 +185,12 @@
       <workItem from="1538550438624" duration="55000" />
       <workItem from="1538559486960" duration="631000" />
       <workItem from="1538650449492" duration="658000" />
-      <workItem from="1538727176713" duration="1808000" />
+      <workItem from="1538727176713" duration="2465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41204000" />
+    <option name="totallyTimeSpent" value="41861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -451,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="57" column="34" lean-forward="false" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="580">
+          <caret line="75" column="34" lean-forward="false" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
           <folding />
         </state>
       </provider>
