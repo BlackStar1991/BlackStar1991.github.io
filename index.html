@@ -34,117 +34,54 @@
 </head>
 
 <body class="body">
+<canvas id="canvas" class="confetti_canvas hidden" width="764" height="560"></canvas>
 <div class="wrapperBlock">
-
     <div class="main_content">
-        <!-- !!! ВНИМАНИЕ данный класс содержит полную шапку и контент / нужен что б подвал всегда был внизу  -->
-
-        <!-- ---------------------------------------- HEADER -------------------------------------------------------- -->
         <header id="header" class="header">
-            <a class="header_logo" href="#"></a>
-
+            <img class="header_logo" src="image/logo_slotoking.png" alt="logo SlotoKing">
         </header>
-        <!-- ----------------------------------------- MAIN --------------------------------------------------------- -->
         <main class="main">
-            <p class="main_text1">Хочешь крутые бонусы?</p>
-            <p class="main_text2">Сделай выбор и забирай их!</p>
-
-
-            <div class="doors_wrapper">
-                <div class="bl_light__wrapper">
-                    <div class="bl_light bl_light__left"></div>
-                    <div class="bl_light bl_light__right"></div>
+            <h1 class="main_title">Самые большие джекпоты в Украине</h1>
+            <div class="bl_work">
+                <div class="bl_baba"></div>
+                <div class="bl_work__poster">
+                    <div class="bl_poster__wrapper">
+                        <p class="text_poster1">только сегодня!</p>
+                        <p class="text_poster2">шанс выиграть</p>
+                        <p class="text_poster3">50 фриспинов</p>
+                    </div>
                 </div>
+                <div class="bl_work__baloon"></div>
 
-                <div class="door_wrapperFull door_left">
-                    <div class="door_light bl_animation1"></div>
-                    <div class="door bl_animation1"></div>
+                <div class="bl_drum__full">
+                    <div class="bl_drum"></div>
+                    <div class="bl_drum__light"></div>
+                    <div class="bl_drum__pointer pointer_animation"></div>
+                    <div class="btn_start__wrapper">
+                        <button class="btn_start" type="button"></button>
+                    </div>
                 </div>
-
-                <div class="door_wrapperFull door_right">
-                    <div class="door_light bl_animation2"></div>
-                    <div class="door bl_animation2"></div>
-                </div>
-
-            </div>
-            <div class="stairs_full">
-                <div class="bl_resident">
-                    <img class="bl_animation1 js-animation-resident " src="image/resident.png" alt="resident game">
-                </div>
-                <div class="bl_floor"></div>
             </div>
         </main>
-
-
-        <!-- ---------------------------------------- FOOTER --------------------------------------------------------- -->
-
     </div>
-
-
     <footer class="footer">
-        <div class="bl_partners">
-            <img src="image/footer_icons/visa.png" alt="visa">
-            <img src="image/footer_icons/MasterCard.png" alt="MasterCard">
-            <img src="image/footer_icons/Qiwi.png" alt="Qiwi">
-            <img src="image/footer_icons/privatBank.png" alt="Privat bank">
-            <img src="image/footer_icons/Curacao-eGaming.png" alt="Curacao-eGaming">
-            <img src="image/footer_icons/18+.png" alt="18+">
+        <div class="footer_ledTable">
+            <strong class="text_footer">Казино Кинг</strong>
         </div>
     </footer>
 </div>
 
 
 <div class="coverLayer hidden"></div>
-<div class="bl_popup bl_popup__animation hidden">
-    <div class="bl_popup__left">
-        <p class="text_congratulation text_congratulation__desc">Поздравляем!</p>
-        <p class="text_congratulation text_congratulation__mob">ТВОИ БОНУСЫ!</p>
-        <p class="text_desc">Вы выиграли бонусы</p>
-        <div class="bl_bonuses">
-            <div class="bl_bonuses__first">
-                <p class="text_bonus_1">150<sub>%</sub></p>
-                <p class="text_bonus_2">БОНУСОВ</p>
-                <p class="text_bonus_3">на 1й депозит</p>
-            </div>
-            <div class="bl_bonuses__plus"></div>
-            <div class="bl_bonuses__second">
-                <p class="text_bonus_2">БОНУС</p>
-                <p class="text_bonus_1">225</p>
-                <p class="text_bonus_4">фриспинов</p>
-            </div>
-        </div>
+<div class="bl_popup hidden">
+    <p class="bl_popup__motto"><span class="motto_animation">Джекпот!</span></p>
+    <div class="bl_popup__multitext">
+        <p class="text_popup1">Поздравляем!</p>
+        <p class="text_popup2">Вы выйграли 50 фриспинов!</p>
+        <p class="text_popup2">У вас есть шанс стать миллионером!</p>
     </div>
 
-    <div class="bl_popup__right">
-        <p class="bl_reg__text1">Зарегистрируйся и получи бонусы!</p>
-        <div class="bl_decor__line"></div>
-        <p class="bl_reg__text2">Это займет меньше 30 секунд</p>
-
-        <form class="bl_form" action="" method="post">
-            <div class="bl_form__wrapper">
-                <div class="buttons_group">
-                    <button class="bl_form__text btn_email active" type="button">Email</button>
-                    <button class="bl_form__text btn_tel" type="button">Телефон</button>
-                </div>
-                <label class="bl_form__label label_email">
-                    <span class="text_form">Введите email:</span>
-                    <input class="bl_form__input js-input-email" type="email" placeholder="Email">
-                    <span class="bl_form__errors hidden"> Тут писать текст ошибки </span>
-                </label>
-                <label class="bl_form__label label_phone hidden">
-                    <span class="text_form">Введите телефон:</span>
-                    <input class="bl_form__input js-input-tel" type="tel" placeholder="Telephone">
-                    <span class="bl_form__errors hidden"> Тут писать текст ошибки </span>
-                </label>
-                <button class="btn_submitForm" type="submit">забрать бонусы!</button>
-            </div>
-
-        </form>
-
-
-        <p class="text_alreadyRegistered">Вы уже зарегистрированы? <a href="#"
-                                                                      class="text_alreadyRegistered__link">Войти</a></p>
-    </div>
+    <a class="link_getBonus" href="http://gamenpartners.com/click.php?lp=1">забрать выйгрыш</a>
 
 
 </div>
