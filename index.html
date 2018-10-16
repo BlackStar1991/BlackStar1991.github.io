@@ -26,6 +26,8 @@
     </style>
     <!-- @formatter:on -->
 
+    <link rel="stylesheet" href="css/libs.min.css">
+
 
     <link rel="stylesheet" href="css/main.min.css">
 
@@ -35,52 +37,135 @@
 <div class="wrapperBlock">
 
     <div class="main_content">
+        <!-- !!! ВНИМАНИЕ данный класс содержит полную шапку и контент / нужен что б подвал всегда был внизу  -->
+
+        <!-- ---------------------------------------- HEADER -------------------------------------------------------- -->
         <header id="header" class="header">
-            <a class="header_logo" href="#"></a>
+            <p class="header_mainPhrase header_text">Выигрывай с Кинг!</p>
+            <p class="header_mainPhrase js-mainPhrase">Испытай удачу и получи призы!</p>
+            <p class="header_mainPhrase js-mainPhrase hidden">Осталось попыток: 1/2</p>
+            <p class="header_mainPhrase js-mainPhrase hidden">Осталось попыток: 0/2</p>
         </header>
+        <!-- ----------------------------------------- MAIN --------------------------------------------------------- -->
         <main class="main">
-            <p class="main_text1">Хочешь крутые бонусы?</p>
-            <p class="main_text2">Сделай выбор и забирай их!</p>
+            <!--<a class="main_logo" href="#"><img src="image/logo_king.png" alt="SlotoKing logo"></a>-->
+            <div class="bl_slot">
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
+                <div class="dec_light"></div>
 
+                <div class="canvas_wrapper">
+                    <div class="icon-dollar">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 27.3 40" style="enable-background:new 0 0 27.3 40;" xml:space="preserve">
+<style type="text/css">
+	.st0 {
+        fill: #00190D;
+    }
 
-            <div class="doors_wrapper">
-                <div class="bl_light__wrapper">
-                    <div class="bl_light bl_light__left"></div>
-                    <div class="bl_light bl_light__right"></div>
+    .st1 {
+        fill: #0BFF00;
+    }
+</style>
+<rect y="0" class="st0" width="28" height="40"/>
+<path class="st1" d="M21.2,18.7c-1.1-0.6-2.3-1.1-3.4-1.5c-0.7-0.3-1.3-0.6-1.9-1.1c-1.1-0.9-0.9-2.3,0.4-2.9
+	c0.4-0.2,0.8-0.2,1.1-0.2c1.5-0.1,3,0.2,4.3,0.9c0.7,0.3,0.9,0.2,1.1-0.5c0.2-0.8,0.4-1.5,0.7-2.3c0.2-0.5,0-0.8-0.5-1.1
+	c-0.9-0.4-1.8-0.7-2.7-0.8C19.1,9,19.1,9,19.1,7.8c0-1.8,0-1.8-1.8-1.8c-0.2,0-0.5,0-0.7,0c-0.8,0-1,0.2-1,1c0,0.4,0,0.7,0,1.1
+	c0,1.1,0,1.1-1.1,1.5c-2.5,0.9-4.1,2.7-4.3,5.4c-0.2,2.5,1.1,4.1,3.2,5.3c1.2,0.7,2.6,1.2,3.9,1.8c0.5,0.2,1,0.5,1.5,0.9
+	c1.3,1,1,2.8-0.5,3.4c-0.8,0.4-1.7,0.4-2.5,0.3c-1.3-0.2-2.6-0.5-3.9-1.2c-0.7-0.4-0.9-0.3-1.2,0.5c-0.2,0.7-0.4,1.3-0.6,2
+	c-0.2,0.9-0.2,1.1,0.7,1.5c1.1,0.5,2.3,0.8,3.5,1c0.9,0.2,1,0.2,1,1.2c0,0.4,0,0.9,0,1.3c0,0.6,0.3,0.9,0.8,0.9c0.6,0,1.3,0,1.9,0
+	c0.5,0,0.8-0.3,0.8-0.8c0-0.6,0-1.2,0-1.8c0-0.6,0.2-0.9,0.8-1.1c1.4-0.4,2.5-1.1,3.4-2.2C25.6,25.1,24.7,20.7,21.2,18.7z"/>
+</svg>
+                    </div>
+                    <canvas class="canvas_counter"></canvas>
+                </div>
+                <h1 class="bl_slot__title">онлайн-казино</h1>
+                <div class="bl_decor__king"></div>
+
+                <div class="bl_slot__workPlace">
+                    <div class="bl_singleSlot__shadow">
+                        <div class="bl_singleSlot bl_singleSlot__1">
+                            <div id="machine1" class="bl_singleSlot__img slotMachineContainer">
+                                <img class="slot slot_1" src="image/slot/images/1.jpg" alt="king">
+                                <img class="slot slot_2" src="image/slot/images/2.jpg" alt="plum">
+                                <img class="slot slot_3" src="image/slot/images/3.jpg" alt="seven">
+                                <img class="slot slot_4" src="image/slot/images/4.jpg" alt="orange">
+                                <img class="slot slot_5" src="image/slot/images/5.jpg" alt="cherry">
+                                <img class="slot slot_6" src="image/slot/images/6.jpg" alt="strawberry">
+                                <img class="slot slot_7" src="image/slot/images/7.jpg" alt="bell">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bl_singleSlot__shadow">
+                        <div class="bl_singleSlot bl_singleSlot__2">
+                            <div id="machine2" class="bl_singleSlot__img slotMachineContainer">
+                                <img class="slot slot_1" src="image/slot/images/1.jpg" alt="king">
+                                <img class="slot slot_2" src="image/slot/images/2.jpg" alt="plum">
+                                <img class="slot slot_3" src="image/slot/images/3.jpg" alt="seven">
+                                <img class="slot slot_4" src="image/slot/images/4.jpg" alt="orange">
+                                <img class="slot slot_5" src="image/slot/images/5.jpg" alt="cherry">
+                                <img class="slot slot_6" src="image/slot/images/6.jpg" alt="strawberry">
+                                <img class="slot slot_7" src="image/slot/images/7.jpg" alt="bell">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bl_singleSlot__shadow">
+                        <div class="bl_singleSlot bl_singleSlot__3">
+                            <div id="machine3" class="bl_singleSlot__img slotMachineContainer">
+                                <img class="slot slot_1" src="image/slot/images/1.jpg" alt="king">
+                                <img class="slot slot_2" src="image/slot/images/2.jpg" alt="plum">
+                                <img class="slot slot_3" src="image/slot/images/3.jpg" alt="seven">
+                                <img class="slot slot_4" src="image/slot/images/4.jpg" alt="orange">
+                                <img class="slot slot_5" src="image/slot/images/5.jpg" alt="cherry">
+                                <img class="slot slot_6" src="image/slot/images/6.jpg" alt="strawberry">
+                                <img class="slot slot_7" src="image/slot/images/7.jpg" alt="bell">
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="door_wrapperFull door_left">
-                    <div class="door_light bl_animation1"></div>
-                    <div class="door bl_animation1"></div>
-                </div>
 
-                <div class="door_wrapperFull door_right">
-                    <div class="door_light bl_animation2"></div>
-                    <div class="door bl_animation2"></div>
+                <button class="btn_start js-start" type="button">старт</button>
+            </div>
+
+
+            <div class="bl_slot__bonuses">
+                <p class="bl_slot__text">Ваши бонусы</p>
+
+                <div class="bl_slot__buttons">
+                    <button class="btn_bonus" type="button">
+                        <span class="bonus_main">225</span>
+                        <span class="bonus_description">фриспинов</span>
+                    </button>
+                    <button class="btn_bonus" type="button">
+                        <span class="bonus_main">150%</span>
+                        <span class="bonus_description">на первый депозит</span>
+                    </button>
+                    <button class="btn_bonus" type="button">
+                        <span class="bonus_main">50</span>
+                        <span class="bonus_description">фриспинов без депозита</span>
+                    </button>
                 </div>
             </div>
-            <div class="stairs_full">
-                <div class="bl_resident">
-                    <img class="bl_animation1 js-animation-resident " src="image/resident.png" alt="resident game">
-                </div>
-                
-                <div class="bl_blackWrapper"></div>
-                <div class="bl_floor"></div>
-            </div>
+
+
         </main>
 
 
+        <!-- ---------------------------------------- FOOTER --------------------------------------------------------- -->
+
     </div>
-    
+
+
     <footer class="footer">
-        <div class="bl_partners">
-            <img src="image/footer_icons/visa.png" alt="visa">
-            <img src="image/footer_icons/MasterCard.png" alt="MasterCard">
-            <img src="image/footer_icons/Qiwi.png" alt="Qiwi">
-            <img src="image/footer_icons/privatBank.png" alt="Privat bank">
-            <img src="image/footer_icons/Curacao-eGaming.png" alt="Curacao-eGaming">
-            <img src="image/footer_icons/18+.png" alt="18+">
-        </div>
+        <div class="bl_partners"></div>
     </footer>
 </div>
 
@@ -88,58 +173,73 @@
 <div class="coverLayer hidden"></div>
 <div class="bl_popup bl_popup__animation hidden">
     <div class="bl_popup__left">
-        <p class="text_congratulation text_congratulation__desc">Поздравляем!</p>
-        <p class="text_congratulation text_congratulation__mob">ТВОИ БОНУСЫ!</p>
-        <p class="text_desc">Вы выиграли бонусы</p>
-        <div class="bl_bonuses">
-            <div class="bl_bonuses__first">
-                <p class="text_bonus_1">150<sub>%</sub></p>
-                <p class="text_bonus_2">БОНУСОВ</p>
-                <p class="text_bonus_3">на 1й депозит</p>
+        <a class="bl_popup__link" href="#">
+            <img src="image/logo_king2.png" alt="SlotoKing logo">
+        </a>
+
+        <p class="bl_popup__text">Поздравляем!</p>
+        <p class="bl_popup__text">Вы выиграли бонусы</p>
+
+        <div class="bl_popup__wrapper">
+            <div class="bl_popup__mark bl_popup__fs">
+                <div class="bl_icon__mark">
+                    <div class="bl_icon__circle"></div>
+                    <p class="bl_icon__text">фриспинов</p>
+                    <div class="bl_icon__kingFs"></div>
+                    <div class="dec_circle"></div>
+                </div>
+
+
             </div>
-            <div class="bl_bonuses__plus"></div>
-            <div class="bl_bonuses__second">
-                <p class="text_bonus_2">БОНУС</p>
-                <p class="text_bonus_1">225</p>
-                <p class="text_bonus_4">фриспинов</p>
+            <div class="bl_popup__mark bl_popup__bonus">
+                <div class="bl_icon__mark">
+                    <div class="bl_icon__circle"></div>
+                    <p class="bl_icon__text">на 1й депозит</p>
+                    <div class="bl_icon__kingBonus"></div>
+                    <div class="dec_circle"></div>
+                </div>
+
             </div>
         </div>
+
+
     </div>
 
     <div class="bl_popup__right">
         <p class="bl_reg__text1">Зарегистрируйся и получи бонусы!</p>
         <div class="bl_decor__line"></div>
-        <p class="bl_reg__text2">Это займет меньше 30 секунд</p>
+        <p class="bl_reg__text2">Это займет меньше</p>
+        <p class="bl_reg__text3">30 секунд</p>
 
-        <form class="bl_form" method="post">
-            <div class="bl_form__wrapper">
-                <div class="buttons_group">
-                    <button class="bl_form__text btn_email active" type="button">Email</button>
-                    <button class="bl_form__text btn_tel" type="button">Телефон</button>
-                </div>
-                <label class="bl_form__label label_email">
-                    <span class="text_form">Введите email:</span>
-                    <input class="bl_form__input js-input-email" type="email" placeholder="Email">
-                    <span class="bl_form__errors hidden"> Тут писать текст ошибки </span>
-                </label>
-                <label class="bl_form__label label_phone hidden">
-                    <span class="text_form">Введите телефон:</span>
-                    <input class="bl_form__input js-input-tel" type="tel" placeholder="Telephone">
-                    <span class="bl_form__errors hidden"> Тут писать текст ошибки </span>
-                </label>
-                <button class="btn_submitForm" type="submit">забрать бонусы!</button>
+        <form class="bl_form" action="" method="post">
+            <div class="buttons_group">
+                <button class="bl_form__text btn_email active" type="button">Email</button>
+                <button class="bl_form__text btn_tel" type="button">Телефон</button>
             </div>
 
+            <label class="bl_form__label label_email">
+                <span class="text_form">Введите email:</span>
+                <input class="bl_form__input js-input-email" type="email" placeholder="Email">
+                <span class="bl_form__errors hidden"> Тут писать текст ошибки </span>
+            </label>
+
+            <label class="bl_form__label label_phone hidden">
+                <span class="text_form">Введите телефон:</span>
+                <input class="bl_form__input js-input-tel" type="tel" placeholder="Telephone">
+                <span class="bl_form__errors hidden"> Тут писать текст ошибки </span>
+            </label>
+
+
+            <button class="btn_submitForm" type="submit">Получить бонусы!</button>
         </form>
 
 
         <p class="text_alreadyRegistered">Вы уже зарегистрированы? <a href="#"
                                                                       class="text_alreadyRegistered__link">Войти</a></p>
+
+
     </div>
-
-
 </div>
-
 
 <script src="libs/jquery.min.js"></script>
 
