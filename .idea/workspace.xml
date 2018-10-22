@@ -3,73 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="$PROJECT_DIR$/css/main.min.css" />
-      <change beforePath="$PROJECT_DIR$/fonts/10838.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/10840.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/Roboto-Black.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/RobotoCondensed-Regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/RobotoCondensed-Regular.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/RobotoCondensed-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/RobotoCondensed-Regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Roboto/RobotoCondensed-Regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-2015/oneplus-one-2015.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-2015/oneplus-one-2015.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-2015/oneplus-one-2015.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-2015/oneplus-one-2015.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-2015/oneplus-one-2015.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-2015/original-oneplus-one-2015.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-black/oneplusone-2015-black.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-black/oneplusone-2015-black.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-black/oneplusone-2015-black.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-black/oneplusone-2015-black.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/oneplus-one-black/original-oneplusone-2015-black.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bg_bonus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bg_freeSpin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bg_main.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bg_main1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bg_popup_mob.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/big_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/big_bg2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/dollar.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" afterPath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/favicon.ico" afterPath="$PROJECT_DIR$/image/favicon/favicon.ico" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/icon-dollar.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/king_mobile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/light_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/light_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/logo_king2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popup_bg__cover.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/images/7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slot/slot1_0.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite.png" afterPath="$PROJECT_DIR$/image/sprite.png" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/decor-slotoking-min.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/decor-slotoking.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-bonus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-freespin.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/king_bonus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/king_fs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/big_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/big_bg1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/light_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/light_full.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/logo_king.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/sloat_head.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/trush/slot_big.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/common.min.js" afterPath="$PROJECT_DIR$/js/common.min.js" />
-      <change beforePath="$PROJECT_DIR$/js/libs.min.js" afterPath="$PROJECT_DIR$/js/libs.min.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,8 +16,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="125" column="18" lean-forward="true" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -270,16 +203,15 @@
       <workItem from="1539958992076" duration="2177000" />
       <workItem from="1539965783844" duration="81000" />
       <workItem from="1540190803375" duration="605000" />
-      <workItem from="1540193494120" duration="580000" />
+      <workItem from="1540193494120" duration="1097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61629000" />
+    <option name="totallyTimeSpent" value="62146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12996778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -454,8 +386,8 @@
     <entry file="file://$PROJECT_DIR$/css/main.min.css" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="125" column="18" lean-forward="true" selection-start-line="125" selection-start-column="18" selection-end-line="125" selection-end-column="18" />
           <folding />
         </state>
       </provider>
