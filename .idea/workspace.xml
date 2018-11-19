@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/image/modal_bg.png" afterPath="$PROJECT_DIR$/image/modal_bg.png" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -199,12 +198,12 @@
       <workItem from="1542013566526" duration="726000" />
       <workItem from="1542617555848" duration="5000" />
       <workItem from="1542630709378" duration="1238000" />
-      <workItem from="1542633587375" duration="1605000" />
+      <workItem from="1542633587375" duration="2227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67358000" />
+    <option name="totallyTimeSpent" value="67980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
