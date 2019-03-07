@@ -1,7 +1,9 @@
+node_modules
 
-.idea/*
 .idea
-.idea/workspace.xml
-.gitignore
-.idea/magicento.xml
-.idea/magicento/
+idea/
+prepros.cfg
+app/bower/
+app/fonts/FontAwesome/
+app/fonts/Tahoma/
+package-lock.json
