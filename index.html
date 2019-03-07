@@ -49,17 +49,24 @@
         <main class="main">
 
 
-            <img class="decor_artboard  hidden" src="image/Artboard%202.svg" alt="Artboart Vulkan777 originals">
+            <img class="decor_artboard " src="image/Artboard%202.svg" alt="Artboart Vulkan777 originals">
 
 
             <div class="bl_slot">
 
 
-                <div class="canvas_wrapper">
+                <div class="canvas_wrapper hidden">
                     <canvas class="canvas_counter"></canvas>
                 </div>
+
+                
+
                 <h1 class="bl_slot__title">онлайн казино</h1>
-                <div class="bl_decor__woman"></div>
+                <picture class="bl_decor__woman">
+                    <source media="(max-width: 1290px)" srcset="image/def-girl__1290.png">
+                    <source media="(max-width: 1470px)" srcset="image/def-girl_1470.png">
+                    <img src="image/def-girl.png" alt="girl image">
+                </picture>
 
                 <div class="bl_slot__workPlace">
                     <div class="bl_singleSlot__shadow">
@@ -105,6 +112,7 @@
 
 
                 <button class="btn_start js-start" type="button">
+                    <span class="decor_arrow"></span>
                     <span class="btn_start__wrapper">Играть</span>
                 </button>
             </div>
@@ -147,7 +155,7 @@
     </footer>
 </div>
 
-<div class="coverLayer coverLayer_animation"></div>
+<div class="coverLayer hidden"></div>
 
 <div class="bl_badSpin hidden">
     <div class="bl_badSpin__wrapper" data-offset="5">
@@ -173,7 +181,7 @@
 </div>
 
 
-<div class="bl_popup">
+<div class="bl_popup hidden">
     <div class="bl_popup__left">
 
         <img class="decor_vibes" src="image/Artboard%202.svg" alt="Artboart Vulkan 777originals">
