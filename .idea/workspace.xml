@@ -3,105 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="81e471eb-4135-4b86-bbff-3de00d8ed10e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/libs.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/main.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/VollkornSC/vollkornsc-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/VollkornSC/vollkornsc-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/VollkornSC/vollkornsc-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/VollkornSC/vollkornsc-regular.woff2" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bg-patern/skullsblack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bikerGirl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/777Original.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/King.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/NetGame.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/bonuses/ReelEmperor.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/create1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-114x114.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon-72x72.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/favicon/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/endorphina.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/igrosoft.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/microgaming.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/netent.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/footer_partners/thunderkick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/games/9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/logo-onlinecasinogamesnow-mobile.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/logo-onlinecasinogamesnow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/news/6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/playGame/panther-moon-292x51.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/playGame/playGame.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popular/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popular/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popular/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popular/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popular/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/popular/6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/rating_half-rtl.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/rating_half.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/rating_off.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/rating_on.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/rating_over.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/rotate.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/slides/scrine1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/smartSearch/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/decore-cube.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-18.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-close-bonus.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-endorphina.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-evoplay.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-gaminator.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-igrosoft.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-megajack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-microgaming.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-netent.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-playson.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-playtech.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-push-gaming.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-thunderkick.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/sprite/icon-yggdrasil.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/bg_fire.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/bikeFront.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-biker.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-bonuses.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-crow-ancor.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-crow.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-electric-guitar.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-electric-guitar2.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-news.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/icon-rock-skull.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/svg_icons/pistons-cross.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/image/symbol.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/common.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/libs.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libs/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libs/svg-morpheus.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -145,11 +46,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-687" />
-    <option name="y" value="385" />
-    <option name="width" value="1924" />
-    <option name="height" value="1069" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -293,23 +194,26 @@
       <workItem from="1540190803375" duration="605000" />
       <workItem from="1540193494120" duration="2022000" />
       <workItem from="1540565082007" duration="607000" />
+      <workItem from="1541840421057" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63678000" />
+    <option name="totallyTimeSpent" value="65030000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-687" y="385" width="1924" height="1069" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13351351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15228114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3156733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3314021" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -317,7 +221,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
