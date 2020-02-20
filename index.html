@@ -264,7 +264,69 @@
                 </div>
 
             </article>
+            <section class="form_contact" id="formContact">
+                <h2 class="title_support form_contact__title">contact us</h2>
+                <div class="form_contact__full">
+                    <div class="form_contact__blur"></div>
+                    <div class="form_contact__wrapper">
+                        <div class="form_contact__left">
+                            <p class="form_contact__phrase">contact details</p>
+                            <p class="form_contact__desc">If you would like to get further information on Net Game
+                                productsbl_copyright
+                                and services, please feel free to contact us!</p>
 
+                            <div class="form_contact__info">
+                                <p class="form_contact__feedback icon-mail"><a
+                                        href="mailto:mail@gmail.com">mail@gmail.com</a></p>
+                                <p class="form_contact__feedback icon-skype"><a href="skype:Skype_User">Skype_User</a>
+                                </p>
+                                <p class="form_contact__feedback icon-phone"><a href="tel:+1974567893">+1974567893</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form_contact__right">
+                            <p class="form_contact__phrase">Send us a message</p>
+
+
+                            <!-- Форма отправляеться AJAX в случаии успеха отображать нижний блок-->
+                            <form class="contactForm_full js-formForBusiness">
+                                <label class="contactForm_label">
+                                    <input class="contactForm_name" type="text" title="your name"
+                                           placeholder="your name">
+                                    <span class="text_error"></span>
+                                </label>
+                                <label class="contactForm_label">
+                                    <input class="contactForm_email" type="email" title="your email"
+                                           placeholder="your email">
+                                    <span class="text_error"></span>
+                                </label>
+                                <label class="contactForm_label bl_textarea">
+                                <textarea class="contactForm_message" name="message" placeholder="your message"
+                                          title="your message"></textarea>
+                                    <span class="text_error"></span>
+                                </label>
+                                <div class="contactForm_security">
+                                    <div class="bl_capcha"> <!-- Сюда запихиваем КАпчу вместо изображения -->
+                                        <img src="image/recaptcha.jpg" alt="recaptcha">
+                                    </div>
+                                    <button class="contactForm_submit js-submit" type="submit">Send message</button>
+                                </div>
+
+                            </form>
+                            <!--  ЭТО не перносить в продакшн  -->
+                            <div class="bl_complete hidden">
+                                <button class="btn_closeComplete" type="button"></button>
+                                <div class="bl_complete__wrapper">
+                                    <p class="bl_complete__text1">your message sent</p>
+                                    <p class="bl_complete__text2">successfully!</p>
+                                    <p class="bl_complete__text3">We will contact you as soon as possible</p>
+                                </div>
+                            </div>
+                            <!-- КОНЕЦ  -->
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
 
