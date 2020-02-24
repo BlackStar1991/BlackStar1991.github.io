@@ -42,7 +42,6 @@
 <div class="wrapperBlock">
 
     <div class="main_content">
-        <!-- !!! ВНИМАНИЕ данный класс содержит полную шапку и контент / нужен что б подвал всегда был внизу  -->
         <!-- ---------------------------------------- HEADER -------------------------------------------------------- -->
         <header id="header" class="header">
 
@@ -58,9 +57,7 @@
             </button>
             <div class="header_wrapper">
                 <div class="container">
-
                     <a class="logo_link" aria-label="logo Netgame Entertainment NV" href="/">
-
                         <svg id="netgamenv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 250">
                             <symbol id="netgamenv_logo">
                                 <path id="Entertainment-text"
@@ -95,10 +92,9 @@
                             </symbol>
                             <use xlink:href="#netgamenv_logo" x="0" y="0"/>
                         </svg>
-                        <picture>
 
-                            <source media="(min-width: 2100px)"
-                                    srcset="image/logoNetgame/netgame_entertament_logo_max_2100.png">
+                        <picture>
+                            <source media="(min-width: 2100px)" srcset="image/logoNetgame/netgame_entertament_logo_max_2100.png">
                             <img src="image/logoNetgame/netgame_entertament_logo_max.png" alt="Netgame entertaiment">
                         </picture>
 
@@ -113,50 +109,49 @@
                         </svg>
 
                         <ul class="bl_nav__full">
-                            <!--  Нужной странице присваиваем класс active -->
-
                             <li class="bl_nav__item"><a href="/" class="bl_nav__link">Home</a></li>
                             <li class="bl_nav__item"><a href="/games" class="bl_nav__link">Games</a></li>
                             <li class="bl_nav__item"><a href="/career" class="bl_nav__link">Career</a></li>
-                            <li class="bl_nav__item"><a href="/who-we-are" class="bl_nav__link active">Who we are</a></li>
+                            <li class="bl_nav__item"><a href="/who-we-are" class="bl_nav__link active">Who we are</a>
+                            </li>
                             <li class="bl_nav__item"><a href="/insights" class="bl_nav__link ">Insights</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-
+        <!-- ----------------------------------------- MAIN --------------------------------------------------------- -->
         <main class="main">
 
             <div class="top_element top_element__whoWeAre">
 
                 <picture class="mainImage_whoWeAre">
-                    <source media="(max-width: 350px)" srcset="image/who-we-are/background/who-we-are-background_350.jpg">
-                    <source media="(max-width: 450px)" srcset="image/who-we-are/background/who-we-are-background_450.jpg">
-                    <source media="(max-width: 600px)" srcset="image/who-we-are/background/who-we-are-background_600.jpg">
-                    <source media="(max-width: 768px)" srcset="image/who-we-are/background/who-we-are-background_768.jpg">
-                    <source media="(max-width: 991px)" srcset="image/who-we-are/background/who-we-are-background_991.jpg">
-                    <source media="(max-width: 1270px)" srcset="image/who-we-are/background/who-we-are-background_1270.jpg">
+                    <source media="(max-width: 500px)"
+                            srcset="image/who-we-are/background/who-we-are-background_500.jpg">
+                    <source media="(max-width: 768px)"
+                            srcset="image/who-we-are/background/who-we-are-background_768.jpg">
+                    <source media="(max-width: 1800px)"
+                            srcset="image/who-we-are/background/who-we-are-background_1800.jpg">
                     <img src="image/who-we-are/background/who-we-are-background.jpg"
                          alt="NetGame Entertainment who-we-are">
                 </picture>
 
-
                 <div class="mainBlock_whoWeAre">
-                    <div class="container">
-                        <h1 class="mainBlock_whoWeAre__title">Who we are</h1>
+                    <h1 class="mainBlock_whoWeAre__title">Who we are</h1>
 
 
-                        <picture class="mainBlock_whoWeAre__phrase">
-                            <source media="(max-width: 600px)" srcset="image/who-we-are/background/main-phrase_600.png">
-                            <source media="(max-width: 991px)" srcset="image/who-we-are/background/main-phrase_991.png">
-                            <source media="(max-width: 1270px)" srcset="image/who-we-are/background/main-phrase_1270.png">
-                            <img src="image/who-we-are/background/main-phrase.png" alt="NetGame Entertainment who-we-are main text">
-                        </picture>
+                    <picture class="mainBlock_whoWeAre__phrase">
+                        <source media="(max-width: 768px)" srcset="image/who-we-are/background/main-phrase_768.png">
+                        <source media="(max-width: 991px)" srcset="image/who-we-are/background/main-phrase__991.png">
+                        <source media="(min-width: 2100px)" srcset="image/who-we-are/background/main-phrase_2100.png">
+                        <img src="image/who-we-are/background/main-phrase.png"
+                             alt="NetGame Entertainment who-we-are main text">
+                    </picture>
 
-                        <p class="mainBlock_whoWeAre__subText">NetGame Entertainment is an Excellence in every feature and Thrill in every move</p>
+                    <p class="mainBlock_whoWeAre__subText">NetGame Entertainment is an Excellence in every feature and
+                        Thrill in every move</p>
 
-                    </div>
+
                 </div>
 
 
@@ -172,6 +167,12 @@
                 <picture class="whoWeAre_lantern whoWeAre_lantern__3">
                     <img src="image/who-we-are/launter.png" alt="lantern design">
                 </picture>
+
+
+                <picture class="whoWeAre_lantern whoWeAre_lantern__4">
+                    <img src="image/who-we-are/launter.png" alt="lantern design">
+                </picture>
+
 
             </div>
 
@@ -190,19 +191,9 @@
                         <p>Within the last two years, we dedicated ourselves to working on the HTML5 platform, which has
                             arisen globally in June 2019 with 30 games in the portfolio, were released at the end of
                             2019. Speaking about 2020, we expected about 20 new games till the end of the year.</p>
-                        <p>Among our most popular game titles are:</p>
-                        <ul>
-                            <li>Hit in Vegas,</li>
-                            <li>Golden Skulls,</li>
-                            <li>Diamond Shot,</li>
-                            <li>Magic Tree,</li>
-                            <li>Clover Stones,</li>
-                            <li>African King,</li>
-                            <li>Magic Dragons,</li>
-                            <li>Dancing Lanterns,</li>
-                            <li>MMA Legends,</li>
-                        </ul>
-                        <p>and a lot of fruit game titles.</p>
+                        <p>Among our most popular game titles are: Hit in Vegas, Golden Skulls, Diamond Shot, Magic
+                            Tree, Clover Stones, African King, Magic Dragons, Dancing Lanterns, MMA Legends, and a lot
+                            of fruit game titles.</p>
                     </div>
                 </div>
             </article>
@@ -210,11 +201,31 @@
 
             <article class="whoWeAre_mission">
 
-                <h2 class="whoWeAre_title">Our Mission</h2>
-                <div class="whoWeAre_mission__description">
-                    <p>We create games in a skilled and passionate way.</p>
-                    <p>We strive to make every players’ experience fascinating & unforgettable.</p>
+                <div class="whoWeAre_mission__wrapper">
+                    <div class="whoWeAre_mission__description">
+                        <h2 class="whoWeAre_title whoWeAre_mission__title">Our Mission</h2>
+                        <picture class="whoWeAre_mission__image">
+                            <!--                        <source media="(max-width: 380px)" srcset="image/who-we-are/background/image_our-mission.png">-->
+                            <img src="image/who-we-are/background/image_our-mission.png" alt="text image">
+                        </picture>
+                        <p>We create games in a skilled and passionate way.</p>
+                        <p>We strive to make every players’ experience fascinating & unforgettable.</p>
+                    </div>
                 </div>
+
+
+
+                <picture class="whoWeAre_lantern whoWeAre_lantern__5">
+                    <img src="image/who-we-are/launter.png" alt="lantern design">
+                </picture>
+
+
+                <picture class="whoWeAre_lantern whoWeAre_lantern__6">
+                    <img src="image/who-we-are/launter.png" alt="lantern design">
+                </picture>
+
+
+
 
             </article>
 
@@ -223,15 +234,17 @@
                 <div class="container">
 
 
-                    <div class="whoWeAre_about__section">
+                    <div class="whoWeAre_about__section whoWeAre_about__section1">
 
-                        <div class="whoWeAre_partImg">
-                            <picture class="">
-                                <img src="image/who-we-are/1.png" alt="image Netgame Entertainment leprechaun">
-                            </picture>
+                        <div class="whoWeAre_partImg animate-left">
+                            <video class="whoWeAre_video__leprechaun" loop="" muted="" autoplay="">
+                                <!--  <source src="https://www.netgamenv.com/wp-content/themes/netgeme_2018/image/Cloverstones_promo_min.webm" type="video/webm"> -->
+                                <source src="image/who-we-are/leprechaun.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                            </video>
                         </div>
 
-                        <div class="whoWeAre_partText">
+
+                        <div class="whoWeAre_partText animate-right">
                             <h2 class="whoWeAre_title whoWeAre_title__left">Our Approach</h2>
 
                             <p>Creating the games we adopt real bricks and mortar casino themes, that immerse players
@@ -247,93 +260,77 @@
                     </div>
 
 
-
                     <div class="whoWeAre_about__section whoWeAre_about__section2">
 
-                        <div class="whoWeAre_partImg">
-                            <picture class="">
-                                <img src="image/who-we-are/2.png" alt="image Netgame Entertainment Zeus">
-                            </picture>
+                        <div class="whoWeAre_partImg animate-right">
+
+                            <video class="whoWeAre_video__zeus" loop="" muted="" autoplay="">
+                                <!--                                <source src="https://www.netgamenv.com/wp-content/themes/netgeme_2018/image/Cloverstones_promo_min.webm" type="video/webm">-->
+                                <source src="image/who-we-are/zeus.mp4"
+                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+                            </video>
+
+
                         </div>
 
 
-                        <div class="whoWeAre_partText">
+                        <div class="whoWeAre_partText animate-left">
                             <h2 class="whoWeAre_title whoWeAre_title__left">Our Values</h2>
-                            <p>We aim to create slots for different playing preferences, to satisfy players with absolute opportunity to choose from, regardless of any demographic criteria or tastes, so users can pick whatever they want in every particular moment.</p>
-                            <p> We pursue the tactic of creating outstanding products, investing in a player's passion, in diverse content, and other vital for us values, which we want to share with our clients.</p>
+                            <p>We aim to create slots for different playing preferences, to satisfy players with
+                                absolute opportunity to choose from, regardless of any demographic criteria or tastes,
+                                so users can pick whatever they want in every particular moment.</p>
+                            <p> We pursue the tactic of creating outstanding products, investing in a player's passion,
+                                in diverse content, and other vital for us values, which we want to share with our
+                                clients.</p>
                         </div>
-
-
-
 
                     </div>
-
-
-
 
                 </div>
 
             </article>
 
-            <section class="form_contact" id="formContact">
-                <h2 class="title_support form_contact__title">contact us</h2>
+            <section id="contactForm" class="form_contact">
+                <h2 class="title_support form_contact__title">Contact us</h2>
                 <div class="form_contact__full">
                     <div class="form_contact__blur"></div>
                     <div class="form_contact__wrapper">
                         <div class="form_contact__left">
-                            <p class="form_contact__phrase">contact details</p>
-                            <p class="form_contact__desc">If you would like to get further information on Net Game
-                                productsbl_copyright
-                                and services, please feel free to contact us!</p>
+                            <p class="form_contact__phrase">Let's make something impressive together! </p>
+                            <p class="form_contact__desc">Please leave us a line so we can discuss our partnership in every detail.</p>
 
                             <div class="form_contact__info">
-                                <p class="form_contact__feedback icon-mail"><a
-                                        href="mailto:mail@gmail.com">mail@gmail.com</a></p>
-                                <p class="form_contact__feedback icon-skype"><a href="skype:Skype_User">Skype_User</a>
-                                </p>
-                                <p class="form_contact__feedback icon-phone"><a href="tel:+1974567893">+1974567893</a>
-                                </p>
+                                <p class="form_contact__feedback icon-mail"><a href="mailto:office@netgamenv.com">office@netgamenv.com</a></p>
+                                <p class="form_contact__feedback icon-skype"><a href="skype:live:netgamenv?chat">live:netgamenv</a></p>
+                                <p class="form_contact__feedback icon-phone"><a href="tel:34444444444444">34444444444444</a></p>
+                                <p class="form_contact__feedback no-icon">Office hours: 10:00 - 19:00 GMT +03:00</p>
                             </div>
                         </div>
                         <div class="form_contact__right">
-                            <p class="form_contact__phrase">Send us a message</p>
-
-
-                            <!-- Форма отправляеться AJAX в случаии успеха отображать нижний блок-->
-                            <form class="contactForm_full js-formForBusiness">
+                            <p class="form_contact__phrase">Get in touch</p>
+                            <form class="contactForm_full" method="post" id="contacts_form">
                                 <label class="contactForm_label">
-                                    <input class="contactForm_name" type="text" title="your name"
-                                           placeholder="your name">
+                                    <input class="contactForm_name" type="text" name="name" id="name" title="your name" placeholder="your name">
                                     <span class="text_error"></span>
                                 </label>
                                 <label class="contactForm_label">
-                                    <input class="contactForm_email" type="email" title="your email"
-                                           placeholder="your email">
+                                    <input class="contactForm_email" type="email" name="mail" title="your email" placeholder="your email">
                                     <span class="text_error"></span>
                                 </label>
                                 <label class="contactForm_label bl_textarea">
-                                <textarea class="contactForm_message" name="message" placeholder="your message"
-                                          title="your message"></textarea>
+                                    <textarea class="contactForm_message" name="massage" id="massage" placeholder="your message" title="your email"></textarea>
                                     <span class="text_error"></span>
                                 </label>
                                 <div class="contactForm_security">
-                                    <div class="bl_capcha"> <!-- Сюда запихиваем КАпчу вместо изображения -->
-                                        <img src="image/recaptcha.jpg" alt="recaptcha">
+                                    <div class="bl_capcha">
+                                        <div class="g-recaptcha" data-sitekey="6Lfz24QUAAAAAFIAcgh9VGtXFd-mmMzT-kq1RIRJ"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfz24QUAAAAAFIAcgh9VGtXFd-mmMzT-kq1RIRJ&amp;co=aHR0cDovL25ldGdhbWUubG9jOjgw&amp;hl=ru&amp;v=n1ZaVsRK4TYyiKxYab0h8MUD&amp;size=normal&amp;cb=l325a1oc4305" width="304" height="78" role="presentation" name="a-jhnof5skn631" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
                                     </div>
-                                    <button class="contactForm_submit js-submit" type="submit">Send message</button>
+                                    <button class="contactForm_submit js-submit-contacts-form-button" type="button">Send message
+                                    </button>
                                 </div>
-
                             </form>
-                            <!--  ЭТО не перносить в продакшн  -->
-                            <div class="bl_complete hidden">
-                                <button class="btn_closeComplete" type="button"></button>
-                                <div class="bl_complete__wrapper">
-                                    <p class="bl_complete__text1">your message sent</p>
-                                    <p class="bl_complete__text2">successfully!</p>
-                                    <p class="bl_complete__text3">We will contact you as soon as possible</p>
-                                </div>
-                            </div>
-                            <!-- КОНЕЦ  -->
+                            <div class="contacts_form_result"></div>
+                            <div class="js-sucsessContactForm"></div>
                         </div>
                     </div>
                 </div>
@@ -341,95 +338,113 @@
 
         </main>
 
+
+        <!-- ---------------------------------------- FOOTER --------------------------------------------------------- -->
+
+
     </div>
 
     <footer class="footer" roll="contentinfo">
 
-        <!--        <button class="bl_map" type="button">-->
-        <!--            <picture class="bl_map__image">-->
-        <!--                <source media="(max-width: 380px)" srcset="image/map_380.jpg">-->
-        <!--                <source media="(max-width: 450px)" srcset="image/map_450.jpg">-->
-        <!--                <img src="image/map.jpg" alt="Image Netgame map">-->
-        <!--            </picture>-->
-
-        <!--            <span class="bl_map__marker"></span>-->
-        <!--        </button>-->
-
         <section class="footer_bottom">
             <div class="bl_businessInfo">
-                <a class="bl_businessInfo__logo" href="/">
+                <a class="bl_businessInfo__logo" href="/" rel="nofollow" aria-label="page NetGame Entertainment">
                     <svg class="logo_netgamenv__min" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 250"
                          width="118" height="96">
 
                         <symbol id="netgamenv_logo__min">
                             <path fill="#00ff68"
-                                  d="M60.7 237h2v-11.8l11.9 12.5v-16.5h-2v11.7l-11.9-12.5V237zM46 237h8.5v-1.8H48v-6h6.4v-1.8H48V223h6.5v-1.8H46V237zm41.4-14.1h-3.8v14h-2v-14h-3.8v-1.8h9.5v1.8h.1zm4.5 14.1h8.5v-1.8h-6.5v-6h6.4v-1.8h-6.4V223h6.5v-1.8h-8.5V237zm23.4-11.4c0 2.3-1.5 4.2-3.8 4.4l5 6.9h-2.4l-4.7-6.7h-.8v6.7h-2V221h2.4c1.4 0 2.9 0 4.2.7 1.4.9 2.1 2.4 2.1 3.9zm-6.1-2.7h-.5v5.7h.6c2 0 4.2-.4 4.2-2.9s-2.4-2.8-4.3-2.8zm16.1 0h3.8v-1.8h-9.5v1.8h3.8v14h2v-14h-.1zm19.2 14.1l-1.8-4h-7.3l-1.8 4h-2.1l7.6-16.5 7.6 16.5h-2.2zm-5.4-12.2l-2.8 6.4h5.6l-2.8-6.4zm13.7-3.7h-2V237h2v-15.9zm7.1 15.9h-2v-16.6l11.9 12.5v-11.7h2v16.5l-11.9-12.5V237zm26.3.3l4.8-10.8 1.9 10.5h2l-3.2-16.5-5.4 12.5-5.4-12.5-3.2 16.5h2l1.9-10.5 4.6 10.8zm23-.3h-8.5v-15.9h8.5v1.8h-6.5v4.4h6.4v1.8h-6.4v6h6.5v1.9zm4.4 0h2v-11.8l11.9 12.5v-16.5h-2v11.7l-11.9-12.5V237zm27.7-14.1h-3.8v14h-2v-14h-3.8v-1.8h9.5v1.8h.1z"/>
-                            <path id="NetGame-text__min" class="netgamenv_white"
-                                  d="M20.6,201.6h4.9v-29.2L55,203.3v-40.8h-4.9v29l-29.5-30.9V201.6z M61.6,201.6h21.1v-4.5
+                                  d="M60.7 237h2v-11.8l11.9 12.5v-16.5h-2v11.7l-11.9-12.5V237zM46 237h8.5v-1.8H48v-6h6.4v-1.8H48V223h6.5v-1.8H46V237zm41.4-14.1h-3.8v14h-2v-14h-3.8v-1.8h9.5v1.8h.1zm4.5 14.1h8.5v-1.8h-6.5v-6h6.4v-1.8h-6.4V223h6.5v-1.8h-8.5V237zm23.4-11.4c0 2.3-1.5 4.2-3.8 4.4l5 6.9h-2.4l-4.7-6.7h-.8v6.7h-2V221h2.4c1.4 0 2.9 0 4.2.7 1.4.9 2.1 2.4 2.1 3.9zm-6.1-2.7h-.5v5.7h.6c2 0 4.2-.4 4.2-2.9s-2.4-2.8-4.3-2.8zm16.1 0h3.8v-1.8h-9.5v1.8h3.8v14h2v-14h-.1zm19.2 14.1l-1.8-4h-7.3l-1.8 4h-2.1l7.6-16.5 7.6 16.5h-2.2zm-5.4-12.2l-2.8 6.4h5.6l-2.8-6.4zm13.7-3.7h-2V237h2v-15.9zm7.1 15.9h-2v-16.6l11.9 12.5v-11.7h2v16.5l-11.9-12.5V237zm26.3.3l4.8-10.8 1.9 10.5h2l-3.2-16.5-5.4 12.5-5.4-12.5-3.2 16.5h2l1.9-10.5 4.6 10.8zm23-.3h-8.5v-15.9h8.5v1.8h-6.5v4.4h6.4v1.8h-6.4v6h6.5v1.9zm4.4 0h2v-11.8l11.9 12.5v-16.5h-2v11.7l-11.9-12.5V237zm27.7-14.1h-3.8v14h-2v-14h-3.8v-1.8h9.5v1.8h.1z"></path>
+                            <path id="NetGame-text__min" class="netgamenv_white" d="M20.6,201.6h4.9v-29.2L55,203.3v-40.8h-4.9v29l-29.5-30.9V201.6z M61.6,201.6h21.1v-4.5
 			H66.5v-14.8h15.8v-4.5H66.5v-11h16.2v-4.5H61.6V201.6z M112.9,166.9h-9.3v34.8h-4.9v-34.8h-9.3v-4.5H113L112.9,166.9L112.9,166.9z
 			 M137.4,181.8v4.5h10.2c-0.2,6.4-6.8,11.7-12.9,11.7c-8.5,0-15.3-7.8-15.3-16c0-8.8,6.9-15.9,15.7-15.9c4.8,0,9.5,2.5,12.4,6.4
 			l3.4-3.3c-3.9-4.8-9.9-7.6-16-7.6c-11.3,0-20.4,9.3-20.4,20.5c0,10.9,8.9,20.3,19.9,20.3s18.6-8.3,18.6-19v-1.6L137.4,181.8
 			L137.4,181.8z M188.2,201.6l-4.5-9.8h-18l-4.5,9.8h-5.3l18.8-40.9l18.8,40.9H188.2z M175.6,171.4l-7,15.9h14L175.6,171.4z
 			 M219.4,202.4l11.8-26.7h0.1l4.6,25.9h5.1l-8-40.9l-13.5,30.9L206,160.7l-8,40.9h5.1l4.6-25.9h0.1L219.4,202.4z M268.6,201.6
-			h-21.1v-39.2h21.1v4.5h-16.2v11h15.8v4.5h-15.8v14.8h16.2V201.6z"/>
+			h-21.1v-39.2h21.1v4.5h-16.2v11h15.8v4.5h-15.8v14.8h16.2V201.6z"></path>
                             <g class="netgament_element__bottom">
-                                <path class="netgamenv_harlequin" d="M145.7 117.5l25.6 25.9h-51.2l25.6-25.9z"/>
-                                <path class="netgamenv_lime" d="M145.7 117.5v25.9h-25.6l25.6-25.9z"/>
+                                <path class="netgamenv_harlequin" d="M145.7 117.5l25.6 25.9h-51.2l25.6-25.9z"></path>
+                                <path class="netgamenv_lime" d="M145.7 117.5v25.9h-25.6l25.6-25.9z"></path>
                             </g>
                             <symbol id="netgament_element__min">
-                                <path class="netgamenv_harlequin" d="M145.1 9L190 54.4l-44.8 45.4-44.9-45.4L145.1 9z"/>
-                                <path class="netgamenv_malachite" d="M145.1 54.4H190l-44.8 45.4-44.9-45.4h44.8z"/>
-                                <path class="netgamenv_lime" d="M145.1 9v90.8l-44.8-45.4L145.1 9z"/>
-                                <path class="netgamenv_mint" d="M124.1 54.4h21v45.4l-44.8-45.4h23.8z"/>
+                                <path class="netgamenv_harlequin"
+                                      d="M145.1 9L190 54.4l-44.8 45.4-44.9-45.4L145.1 9z"></path>
+                                <path class="netgamenv_malachite" d="M145.1 54.4H190l-44.8 45.4-44.9-45.4h44.8z"></path>
+                                <path class="netgamenv_lime" d="M145.1 9v90.8l-44.8-45.4L145.1 9z"></path>
+                                <path class="netgamenv_mint" d="M124.1 54.4h21v45.4l-44.8-45.4h23.8z"></path>
                                 <path class="netgamenv_white"
-                                      d="M134.1 54.4s3.3-1.1 6.6-4.4c3.3-3.3 4.4-6.6 4.4-6.6s1.2 3.5 4.4 6.6c3.2 3.2 6.6 4.4 6.6 4.4s-3.3.8-6.6 4.4c-3.3 3.6-4.4 6.6-4.4 6.6s-.6-2.2-3.9-6.1c-3.3-3.8-7.1-4.9-7.1-4.9z"/>
+                                      d="M134.1 54.4s3.3-1.1 6.6-4.4c3.3-3.3 4.4-6.6 4.4-6.6s1.2 3.5 4.4 6.6c3.2 3.2 6.6 4.4 6.6 4.4s-3.3.8-6.6 4.4c-3.3 3.6-4.4 6.6-4.4 6.6s-.6-2.2-3.9-6.1c-3.3-3.8-7.1-4.9-7.1-4.9z"></path>
                                 <path fill="#000"
-                                      d="M145.1 25.8l28.6 28.6L145.1 83l-28.6-28.6 28.6-28.6zm0 8.5L125 54.4l20.1 20.1 20.1-20.1-20.1-20.1z"/>
+                                      d="M145.1 25.8l28.6 28.6L145.1 83l-28.6-28.6 28.6-28.6zm0 8.5L125 54.4l20.1 20.1 20.1-20.1-20.1-20.1z"></path>
                             </symbol>
-                            <use xlink:href="#netgament_element__min" x="0" y="0"/>
-                            <use xlink:href="#netgament_element__min" x="101" y="85" transform="scale(0.77)"/>
-                            <use xlink:href="#netgament_element__min" x="-13" y="85" transform="scale(0.77)"/>
-
+                            <use xlink:href="#netgament_element__min" x="0" y="0"></use>
+                            <use xlink:href="#netgament_element__min" x="101" y="85" transform="scale(0.77)"></use>
+                            <use xlink:href="#netgament_element__min" x="-13" y="85" transform="scale(0.77)"></use>
                         </symbol>
-
-                        <use xlink:href="#netgamenv_logo__min" x="0" y="0"/>
-
+                        <use xlink:href="#netgamenv_logo__min" x="0" y="0"></use>
                     </svg>
                 </a>
                 <div class="bl_businessInfo__wrapper">
                     <p class="bl_businessInfo__text">For business inquiries</p>
-                    <a class="bl_businessInfo__text bl_businessInfo__link"
-                       href="mailto:sales@netgame.com">sales@netgame.com</a>
+                    <a class="bl_businessInfo__text bl_businessInfo__link" href="mailto:office@netgamenv.com"
+                       aria-label="send message on NetGame Entertainment">office@netgamenv.com</a>
                     <p class="bl_businessInfo__text">All rights reserved</p>
-                    <p class="bl_businessInfo__text">© 2015-2018</p>
+                    <p class="bl_businessInfo__text">© 2015-2020</p>
+                    <a class="bl_businessInfo__text bl_businessInfo__link" rel="nofollow" target="_blank"
+                       href="/privacy-policy"
+                       aria-label="Visit page Privacy Policy of NetGame Entertainment">Privacy Policy</a>
+                    <a class="bl_businessInfo__text bl_businessInfo__link" rel="nofollow" href="/responsible-gaming"
+                       aria-label="Responsible gaming in NetGame Entertainment">Responsible gaming</a>
                 </div>
             </div>
 
             <div class="bl_copyright">
                 <h2 class="bl_copyright__title">ALL RIGHTS RESERVED</h2>
                 <p class="bl_copyright__text">netgame logos and graphic material is the company's intellectual property
-                    and may not be copied, reproduced, distributed or displayed without the written consent of netgame
+                    and
+                    may not be copied, reproduced, distributed or displayed without the written consent of netgame
                     Entertainment.</p>
             </div>
 
-
             <div class="bl_corporation">
                 <div class="bl_soc">
-                    <a class="bl_soc__item icon-fb" target="_blank" href="#"></a>
-                    <a class="bl_soc__item icon-tw" target="_blank" href="#"></a>
-                    <a class="bl_soc__item icon-linkedIn" target="_blank" href="#"></a>
-                    <a class="bl_soc__item icon-inst" target="_blank" href="#"></a>
-                    <a class="bl_soc__item icon-youtube" target="_blank" href="#"></a>
+                    <a class="bl_soc__item icon-fb" target="_blank" rel="noreferrer"
+                       href="https://www.facebook.com/netgamenv"
+                       aria-label="Visit page NetGame Entertainment in Facebook"></a>
+                    <a class="bl_soc__item icon-tw" target="_blank" rel="noreferrer"
+                       href="https://twitter.com/netgame_nv"
+                       aria-label="Visit page NetGame Entertainment in Twitter"></a>
+                    <a class="bl_soc__item icon-linkedIn" target="_blank" rel="noreferrer"
+                       href="https://www.linkedin.com/company/netgame-nv/?viewAsMember=true"
+                       aria-label="Visit page NetGame Entertainment in LinkedIn"></a>
+                    <a class="bl_soc__item icon-inst" target="_blank" rel="noreferrer"
+                       href="https://www.instagram.com/netgamenv"
+                       aria-label="Visit page NetGame Entertainment in Instagram"></a>
+                    <a class="bl_soc__item icon-youtube" target="_blank" rel="noreferrer"
+                       href="https://www.youtube.com/channel/UCUQHjSYOZSxBNx51w_KN5uw"
+                       aria-label="Visit page NetGame Entertainment in Youtube"></a>
                 </div>
                 <div class="bl_ourLicense">
-                    <div class="icon-sea"></div>
+                    <div class="curacao-license">
+                        <div id="apg-39dca2f8-e06a-4176-bfaf-4308b18e042d"
+                             data-apg-seal-id="39dca2f8-e06a-4176-bfaf-4308b18e042d" data-apg-image-size="128"
+                             data-apg-image-type="basic-small">
+                            <div style="display: block;position: relative;overflow: hidden;max-width: 128px;min-width: 32px;">
+                                <a target="_blank"
+                                   href="https://validator.antillephone.com/validate?domain=www.netgamenv.com&amp;seal_id=001cc1b37c9de464ade16d3ca11aa467dc0ea2efd344892931e6349437e57698d671a59ec4d79bb8f149b4fdacbec418&amp;stamp=7dc126ffe9ad5179cca718069eb88ded">
+                                    <img alt="License Validation Link" style="width: 100%; height: auto"
+                                         src="https://39dca2f8-e06a-4176-bfaf-4308b18e042d.snippet.antillephone.com/sealassets/7dc126ffe9ad5179cca718069eb88ded-www.netgamenv.com-001cc1b37c9de464ade16d3ca11aa467dc0ea2efd344892931e6349437e57698d671a59ec4d79bb8f149b4fdacbec418-c2VhbC5wbmc%3D?status=valid">
+                                </a></div>
+                        </div>
+                        <script src="https://39dca2f8-e06a-4176-bfaf-4308b18e042d.snippet.antillephone.com/apg-seal.js"></script>
+                    </div>
                     <div class="icon-gameLab"></div>
                 </div>
-
             </div>
 
 
         </section>
+
 
     </footer>
 </div>
@@ -456,7 +471,6 @@
 
 
 <script src="js/onlyFor_aboutCompany-page.js"></script>
-
 
 
 <script src="js/onlyFor_home-page.js"></script>
