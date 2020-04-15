@@ -58,7 +58,7 @@ jQuery(document).ready(function ($) {
         FB.ui({
             display: 'popup',
             method: 'share',
-            href: currentUrlAdress,
+            href: currentUrlAddress,
             hashtag:'#NetGame'
         }, function(response){});
 
