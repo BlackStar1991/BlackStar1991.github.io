@@ -409,7 +409,7 @@
 
 
             <div class="bl_consultation">
-                <button class="btn btn_consultation " type="button">Записаться на консультацию</button>
+                <button class="btn btn_consultation js-contactUs" type="button">Записаться на консультацию</button>
                 <div class="bl_consultation__break"></div>
 
                 <div class="bl_consultation__item">
@@ -522,10 +522,51 @@
 </div>
 
 
-<div class="overlay hidden"></div>
+<div class="overlay "></div>
+
+<!-- SECOND FORM -->
+<div class="bl_popup  ">
+<!--    <div class="bl_popup__wrapper">-->
+<!--        <button class="btn_close__popup" type="button">-->
+<!--            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">-->
+<!--                <path d="M11.4,10l8.3-8.3c0.4-0.4,0.4-0.9,0-1.4c-0.4-0.4-0.9-0.4-1.4,0L10,8.6L1.7,0.3c-0.4-0.4-0.9-0.4-1.4,0s-0.4,0.9,0,1.4-->
+<!--	L8.6,10l-8.3,8.3c-0.4,0.4-0.4,0.9,0,1.4C0.5,19.9,0.7,20,0.9,20s0.5-0.1,0.6-0.3l8.3-8.3l8.3,8.3c0.2,0.2,0.4,0.3,0.6,0.3-->
+<!--	c0.2,0,0.5-0.1,0.6-0.3c0.4-0.4,0.4-0.9,0-1.4L11.4,10z"></path>-->
+<!--            </svg>-->
+<!--        </button>-->
+<!--        <p class="bl_popup__text">Обратная связь</p>-->
+<!--        <form class="form_service contactForm_full js-formService">-->
+<!--            <input type="hidden" value="Передавать название услуги"> &lt;!&ndash; Сюда надо подпихивать title страници  &ndash;&gt;-->
+
+<!--            <label class="form_service__label">-->
+<!--                <input class="contactForm_name" type="text" placeholder="Ваше имя">-->
+<!--                <span class="text_error"> Ваше имя слишком длинное</span>-->
+<!--            </label>-->
+<!--            <label class="form_service__label">-->
+<!--                <input class="contactForm_tel" type="tel" placeholder="Ваш номер телефона">-->
+<!--                <span class="text_error"></span>-->
+<!--            </label>-->
+
+<!--            <label class="form_service__label">-->
+<!--                <input class="contactForm_email" type="email" placeholder="Ваш email">-->
+<!--                <span class="text_error"></span>-->
+<!--            </label>-->
+
+<!--            <label class="form_service__label">-->
+<!--                <input class="contactForm_massage" type="text" placeholder="Ваше сообщение">-->
+<!--                <span class="text_error"></span>-->
+<!--            </label>-->
+
+<!--            <div class="block_capcha">-->
+<!--                &lt;!&ndash;Сюда поставить Гугл Капчу &ndash;&gt;-->
+<!--                <img src="image/capcha.jpg" alt="capcha">-->
+<!--            </div>-->
+
+<!--            <button class="btn btn_formSubmit" type="submit">Отправить</button>-->
+<!--        </form>-->
+<!--    </div>-->
 
 
-<div class="bl_popup  hidden">
     <div class="bl_popup__wrapper">
         <button class="btn_close__popup" type="button">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -534,8 +575,8 @@
 	c0.2,0,0.5-0.1,0.6-0.3c0.4-0.4,0.4-0.9,0-1.4L11.4,10z"></path>
             </svg>
         </button>
-        <p class="bl_popup__text">Обратная связь</p>
-        <form class="form_service contactForm_full js-formService">
+        <p class="bl_popup__text consultation_text">Запись на консультацию</p>
+        <form class="form_service contactForm_full js-formService" id="consultation_form">
             <input type="hidden" value="Передавать название услуги"> <!-- Сюда надо подпихивать title страници  -->
 
             <label class="form_service__label">
@@ -548,12 +589,7 @@
             </label>
 
             <label class="form_service__label">
-                <input class="contactForm_email" type="email" placeholder="Ваш email">
-                <span class="text_error"></span>
-            </label>
-
-            <label class="form_service__label">
-                <input class="contactForm_massage" type="text" placeholder="Ваше сообщение">
+                <input class="contactForm_massage" type="text" placeholder="Выбрать услугу">
                 <span class="text_error"></span>
             </label>
 
@@ -562,9 +598,17 @@
                 <img src="image/capcha.jpg" alt="capcha">
             </div>
 
-            <button class="btn btn_formSubmit" type="submit">Отправить</button>
+            <button class="btn btn_formSubmit" type="submit">Записаться</button>
         </form>
     </div>
+
+
+
+
+
+
+
+
 </div>
 
 
