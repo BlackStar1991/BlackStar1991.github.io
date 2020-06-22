@@ -239,328 +239,627 @@
         </header>
 
 
-        <main class="main" id="mainPage">
+        <main class="main" id="pricePage">
 
-            <div class="main_slide">
-                <picture class="main_slide__image">
-                    <source media="(max-width: 600px)" srcset="image/frontPage/firstSec/video_prev_600.jpg">
-                    <source media="(max-width: 768px)" srcset="image/frontPage/firstSec/video_prev_768.jpg">
-                    <source media="(max-width: 880px)" srcset="image/frontPage/firstSec/video_prev_880.jpg">
-                    <source media="(max-width: 991px)" srcset="image/frontPage/firstSec/video_prev_991.jpg">
-                    <source media="(max-width: 1480px)" srcset="image/frontPage/firstSec/video_prev_1480.jpg">
-                    <img src="image/frontPage/firstSec/video_prev.jpg" width="1732" height="881"
-                         alt="beauty clinic slide">
-                </picture>
+            <div class="pricePage">
+            <ul class="bl_breadcrumbs" itemscope itemtype='https://schema.org/BreadcrumbList'>
+                <li itemprop='itemListElement' itemscope itemtype='https://schema.org/ListItem'>
+                    <a itemtype='https://schema.org/Thing' itemscope itemprop='item' id='mainPage'
+                       href='/'>
+                        <span itemprop='name'>Главная</span>
+                    </a>
+                    <meta itemprop='position' content='1'>
+                </li>
+
+                <li class='uk-active' itemprop='itemListElement' itemscope
+                    itemtype='https://schema.org/ListItem'>
+                                        <span itemtype='https://schema.org/Thing' itemscope itemprop='item'
+                                              id='price' title='Прайс'><span
+                                                itemprop='name'>Прайс</span></span>
+                    <meta itemprop='position' content='2'>
+                </li>
+            </ul>
+
+            <h1 class="st pagePrice_title">Прайс</h1>
 
 
-                <div class="main_slide__info">
-                    <div class="main_slide__wrapper">
-                        <p class="main_slide__value">Скидки %</p>
-                        <p class="main_slide__text">Новым подписчикам предоставляем скидку 30% на все услуги. Так же
-                            действует акция “Приведи подругу - получи скидку!”
-                        </p>
-                        <button class="btn main_slide__link js-contactUs">Записаться онлайн</button>
+            <div class="allPrice">
+
+                   <!--  FIRST  -->
+                    <button class="price_header active" data-number="1" >
+                        <span class="price_title">косметология</span>
+                    </button>
+                    <!--      Category 1  -->
+                    <div class="price_item  active"  data-number="1">
+                        <ul class="price_list">
+                            <li class="price_position">
+                                <div class="price_param" id="cat32">Дерматоскопия/диагностика заболеваний кожи</div>
+                                <div class="price_val"></div>
+
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat34">Плазмолифтинг</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat42">Консультация дерматолога</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat66">Удаление родинок</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat88">Удаление родинок лазером</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat77">Удаление бородавок</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat554">Удаление бородавок лазером</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat88">Удаление папиллом</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat45">Удаление папиллом лазером</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat2">Лечение грибка ногтей лазером</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat72">Коррекция вросшего ногтя лазером</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat329">Трихология</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param" id="cat3298">Кислородная мезотерапия</div>
+                                <div class="price_val"></div>
+                                <ul class="price_materials">
+                                    <li>
+                                        <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                        <div class="price_val">1500 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 1 1ml</div>
+                                        <div class="price_val">2100 грн</div>
+                                    </li>
+                                    <li>
+                                        <div class="price_matName">Juvederm 2 0.55ml</div>
+                                        <div class="price_val">3200 грн</div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
                     </div>
+
+                    <!--  SECOND -->
+                    <button class="price_header" data-number="777" >
+                        <span class="price_title">Лазерная эстетическая медицина</span>
+                    </button>
+                    <!--      Category 2  -->
+                    <div class="price_item " data-number="777" >
+                        <ul class="price_list">
+                            <li class="price_position">
+                                <div class="price_param" id="cat55">Дерматоскопия/диагностика заболеваний кожи</div>
+                                <div class="price_val"></div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Плазмолифтинг</div>
+                                <div class="price_val"></div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Консультация дерматолога</div>
+                                <div class="price_val"></div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Удаление родинок</div>
+                                <div class="price_val"></div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <button class="price_header" data-number="33" >
+                        <span class="price_title">инъекционная косметология</span>
+                    </button>
+
+
+                    <!--  THIRD  -->
+                    <!--      Category 3  -->
+                    <div class="price_item "  data-number="33">
+                        <ul class="price_list">
+                            <li class="price_position">
+                                <div class="price_param">Дерматоскопия/диагностика заболеваний кожи</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Плазмолифтинг</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Консультация дерматолога</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Удаление родинок</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Удаление родинок лазером</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Удаление бородавок</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                <!--  FOURTH  -->
+                    <button class="price_header" data-number="44" >
+                        <span class="price_title">Дерматовенерология онкология</span>
+                    </button>
+
+                    <!--      Category 4  -->
+                <div class="price_item  active"  data-number="44">
+                    <ul class="price_list">
+                        <li class="price_position">
+                            <div class="price_param" id="cat567">Дерматоскопия/диагностика заболеваний кожи</div>
+                            <div class="price_val"></div>
+
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat567">Плазмолифтинг</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat4345">Консультация дерматолога</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat345">Удаление родинок</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat2342">Удаление родинок лазером</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat77642">Удаление бородавок</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat5542">Удаление бородавок лазером</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat886">Удаление папиллом</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat455">Удаление папиллом лазером</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat23">Лечение грибка ногтей лазером</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat727">Коррекция вросшего ногтя лазером</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat3294">Трихология</div>
+                            <div class="price_val"> TEST PRICE</div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="price_position">
+                            <div class="price_param" id="cat32938">Кислородная мезотерапия</div>
+                            <div class="price_val"></div>
+                            <ul class="price_materials">
+                                <li>
+                                    <div class="price_matName">Juvederm Smile 0.55ml</div>
+                                    <div class="price_val">1500 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 1 1ml</div>
+                                    <div class="price_val">2100 грн</div>
+                                </li>
+                                <li>
+                                    <div class="price_matName">Juvederm 2 0.55ml</div>
+                                    <div class="price_val">3200 грн</div>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
                 </div>
+
+                <!--  Fifth  -->
+                    <button class="price_header" data-number="55" >
+                        <span class="price_title">Эстетическая гинекология</span>
+                    </button>
+                    <!--      Category 5  -->
+                    <div class="price_item " data-number="55">
+                        <ul class="price_list">
+                            <li class="price_position">
+                                <div class="price_param">Дерматоскопия/диагностика заболеваний кожи</div>
+                                <div class="price_val">от 500 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Плазмолифтинг</div>
+                                <div class="price_val">от 1600 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Консультация дерматолога</div>
+                                <div class="price_val">от 550 грн</div>
+                            </li>
+                            <li class="price_position">
+                                <div class="price_param">Удаление родинок</div>
+                                <div class="price_val">от 1600 грн</div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
             </div>
 
-            <section class="bl_section">
-                <div class="bl_section__wrapper">
-
-                    <div class="about_us__doctor">
-                        <picture class="about_us__img">
-                            <source media="(max-width: 1100px)" srcset="image/frontPage/f-zone-leader_1100.jpg">
-                            <img src="image/frontPage/f-zone-leader.jpg" alt="F-zone image">
-                        </picture>
-                        <p class="about_us__name">Dr. Natalie Flundra</p>
-                    </div>
-
-
-                    <div class="about_us__first">
-                        <div class="about_us__info">
-                            <p class="st about_us__sub ">Subtitle, Траляля</p>
-                            <h2 class="about_us__title">О нас</h2>
-
-                            <p class="about_us__motto">Цель нашей клиники</p>
-
-                            <p>Лицензия МОЗ Украины на проведение частной медицинской практики серия АГ №599282 выд.
-                                28.12.2011 г.
-                                Является членом ВОО «Ассоциации специалистов народной и нетрадиционной медицины</p>
-
-                            <p>Украины» МОЗ Украины, член «Украинской ассоциации народной мануальной терапии».
-                                Автор работ по использованию гирудотерапии в гинекологии, кардиологии</p>
-
-                            <p>Опыт работы в медицине 25 лет.</p>
-
-                            <p>Оказываемые услуги:</p>
-
-                            <p>С 2010 г. – по настоящее время</p>
-
-                            <a class="btn link_moreInfo" href="#">Узнать больше</a>
-
-                        </div>
-
-
-                    </div>
-
-
-                </div>
-            </section>
-
-
-            <section class="bl_section">
-                <div class="bl_section__services">
-                    <h2 class="st bl_services__title">Популярные Услуги</h2>
-
-
-                    <div class="bl_services__list js-slider-services">
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/1.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/2.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/3.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/4.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/1.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/2.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                        <div class="bl_services__item">
-                            <img class="bl_services__img" src="image/frontPage/services/3.jpg" alt="Service1">
-                            <div class="bl_services__wrap">
-                                <div class="bl_services__info">
-                                    <p class="bl_services__name">Комплексная чистка лица</p>
-                                    <p class="bl_services__text">Шрамы и послеоперационные рубцы в интимной зоне теперь
-                                        не проблема! На помощь придут современные технологии.</p>
-                                </div>
-                                <a class="btn bl_services__link" href="#">Подробнее</a>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </section>
-
-
-            <section class="bl_section">
-                <div class="bl_section__int">
-                    <h2 class="st instagram_block__title">Мы в Instagram</h2>
-
-                    <div class="instagram_block">
-                        <div class="instagram_block__images">
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/1.jpg" width="271" height="169"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/2.jpg" width="417" height="254"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/3.jpg" width="555" height="321"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/4.jpg" width="408" height="253"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="instagram_block__break"></div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/5.jpg" width="271" height="169"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/6.jpg" width="417" height="254"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/7.jpg" width="555" height="321"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-                            <div class="service_img">
-                                <img src="image/frontPage/instagram-blocks/8.jpg" width="408" height="253"
-                                     alt="service f-zone.com.ua" loading="lazy">
-                            </div>
-
-
-                        </div>
-                        <a class="instagram_block__link"
-                           href="https://www.instagram.com/accounts/login/?next=%2Fdr.flundra%2F&source=follow"
-                           target="_blank"><img src="image/frontPage/instagram-button.jpg" width="391" height="91"
-                                                loading="lazy" alt="instagram Flundra canal"></a>
-                    </div>
-
-
-                    <a class="btn btn_allInstagram" href="#">Посмотреть все работы</a>
-
-
-                </div>
-            </section>
-
-            <section class="bl_section">
-                <div class="sec_location">
-                    <div class="sec_location__wrap">
-                        <h2 class="st sec_location__title">Где нас найти</h2>
-
-                        <div class="sec_location__address">
-                            <div class="bl_map">
-                                <!--      Google map       -->
-                                <img src="image/frontPage/map.jpg" alt="map">
-
-                            </div>
-
-                            <div class="sec_location__contactInfo">
-                                <p class="sec_location__param ">Наш адресс</p>
-                                <a class="sec_location__val icon-marker" href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%BE%D1%80%D0%B5%D0%B7%D0%BD%D0%B0%D1%8F+%D1%83%D0%BB.,+12,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/@50.4483738,30.5159209,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4ce574461531d:0xc8bcf4ad93917fe5!8m2!3d50.4483738!4d30.5181096">Киев, ул. Прорезная 12</a>
-                                <p class="sec_location__param ">Наш телефон</p>
-                                <a class="sec_location__val icon-cellphone" href="tel:0665759888">(066) 575 98 88</a>
-                                <p class="sec_location__param ">Наш email</p>
-                                <a class="sec_location__val icon-dog" href="mailto:dr.flundra@gmail.com">dr.flundra@gmail.com</a>
-
-                                <div class="sec_location_socButtons">
-                                    <a class="soc_link" href="https://www.facebook.com/dr.flundra/" target="_blank">
-                    <img src="image/svg_icons/soc-fb.svg" alt="facebook link">
-                </a>
-                                    <a class="soc_link"
-                                       href="https://www.instagram.com/accounts/login/?next=%2Fdr.flundra%2F&source=follow"
-                                       target="_blank">
-                                        <img src="image/svg_icons/soc-inst.svg" alt="facebook link">
-                                    </a>
-                                </div>
-
-                                <button class="btn btn_writeUs js-contactUs" type="button">Напишите нам</button>
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </section>
-
-
-            <section class="bl_section section_partners">
-
-                <div class="bl_ourPartners">
-                    <div class="bl_ourPartners__wrap">
-                        <h2 class="bl_ourPartners__title">Наши партнеры</h2>
-
-                        <div class="bl_ourPartners__list">
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/1.png"
-                                                                          alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/2.png"
-                                                                          alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/3.png"
-                                                                          alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/5.png" alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/4.png" alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/2.png"
-                                                                          alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/3.png"
-                                                                          alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/1.png"
-                                                                          alt="partner"> </a>
-                            <a class="bl_ourPartners__link" href="#"><img src="image/frontPage/partners/4.png"
-                                                                          alt="partner"> </a>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </section>
-
-
-            <div class="bl_ceo wrapperCEO">
-                <h1 class="main_title">Косметология для вас</h1>
-                <h2><span>Косметологическая клиника F-Zone</span></h2>
-                <p><span>Современное общество сформировало критерии успешности. Один из них — внешняя красота. Ухоженные тело и лицо привлекают внимание, вызывают восхищение и приковывают взгляды. По статистике, красивые люди легче коммуницируют с окружающими. Считается, что им проще устроиться на работу и обрести семью. Согласитесь, серьезные аргументы, чтобы заняться своей внешностью. И доверить решение этого важного вопроса надо профессионалам. Именно такие работают в косметологической клинике F-Zone. В центре F-Zone работают специалисты высокого квалификационного уровня. Научность и инновационность знаний, богатая медицинская практика, систематическое изучение передового опыта в области косметологии позволяют персоналу клиники поддерживать на высоком уровне качество обслуживания.</span>
-                </p>
-                <p><span>Пациентам, обратившимся в клинику F-Zone за помощью, предлагаются современные методы омоложения кожи, коррекционная пластика лица, эстетическая гинекология. Благодаря мастерству, доброжелательности и деликатности сотрудников каждый, кто посетил косметологическую клинику, уходит от нас красивым и счастливым.</span>
-                </p>
-
-                <h3><span>Одно из направлений в деятельности косметологической клиники — дерматология.</span></h3>
-
-                <p><span>В медицинском центре пациенты могут получить профессиональную консультацию по уходу за проблемной кожей, пройти дерматоскопию, которая позволяет максимально точно поставить диагноз и определить методы лечения. В перечень услуг, оказываемых в косметологической клинике, входят как лечебные, так процедуры и эстетического плана. К последним относятся экспресс-омоложение, лазерные пилинг и шлифовка кожных покровов, карбоновый пилинг, наноперфорация. </span>
-                </p>
-                <p><span>Все манипуляции в клинике проводятся на высокотехнологичном оборудовании с применением высококачественных препаратов. Сотрудники центра F-Zone предлагают эффективные способы борьбы с акне, розацея, рубцов и растяжек, онихомикоза, купероза, избавляют родинок, папиллом, бородавок. Обратившись к нам, клиенты надолго избавятся от проблем с кожей и получат рекомендации по дальнейшему уходу за ней.</span>
-                </p>
-                <h3><span>Коррекционные программы</span></h3>
-                <p><span>Следующее профиль в работе клиники — коррекция лица. В клинике F-Zone предоставляются разноплановые методики, улучшающие лицевой контур. Все они не требуют радикального оперативного вмешательства, а оказываются в форме специальных инъекций. Радиесс стимулирует выработку коллагена. Благодаря биоревитализации (введению препаратов на основе гиалуроновой кислоты) кожа приобретает упругость и эластичность, а овал лица — четкие очертания. </span>
-                </p>
-                <p><span>Эффективность мезотерапии заключается в избавлении от морщин. С мимическими морщинами борется диспорт — ботоксные инъекции. В косметологической клинике F-Zone осуществляются процедуры по увеличению губ и улучшению лицевого контура. При их проведении используются препараты ведущих фармакологических компаний.</span>
-                </p>
-                <h3><span>Эстетическая гинекология</span></h3>
-                <p><span>Еще одно направление медицинского центра F-Zone — эстетическая гинекология. Наша команда помогает женщинам избавиться от деликатных проблем и возвращают им радость интимной жизни. Решению проблем предшествует диагностика, а затем в соответствии с рекомендациями врачей пациенткам оказывается помощь. Лазерный способ без радикальной хирургии решает многие гинекологические проблемы. Используя лазерное оборудование, доктора косметологической клиники проведут следующие операции: вагинальное омоложение, лечение недержания мочи, пилинг интимных зон. </span>
-                </p>
-                <p><span>Главные достоинства лазера — быстрота и безболезненность операции, а также длительный послеоперационный эффект. Среди услуг, оказываемых в медицинском центре, — коррекция больших половых губ, сужение влагалища, биоревитализация интимных зон, стимуляция точки G, устранение рубцовых изменений. Любая из этих процедур для женщины значит очень много: усиливается чувствительность и острота сексуальных ощущений, жизнь наполняется новыми красками и становится сексуально полноценной.</span>
-                </p>
-                <h3><span>В нашей клинике Вам подарят красоту</span></h3>
-                <p><span>Дерматологи клиники сделают кожу чистой и позаботятся о ее здоровом виде. Специалисты в области пластики лица придадут ему четкие очертания. Профессиональные доктора клиники, специализирующиеся на эстетической гинекологии, помогут обрести сексуальную гармонию. Все члены нашей команды: от главного врача клиники до младшей медсестры — будучи профессионалами, ответственно относятся к своим обязанностям. F-Zone дарит клиентам здоровье и великолепие!</span>
-                </p>
 
             </div>
-
-
         </main>
 
         <aside class="bl_aside">
@@ -742,12 +1041,65 @@
 <!-- Сюда подключить асинхронно скрип отвечающий за recapch -->
 
 
+
+
 <script src="libs/jquery.min.js"></script>
 
 <script src="js/libs.min.js"></script>
 
 
 <script src="js/common.min.js"></script>
+
+
+<script>
+
+    /// PricePage
+    var
+        active = "active",
+        buttonsCat = $(".price_header"),
+        sectionsPrice = $('.price_item');
+
+
+    function activationCategory(btnCat){
+        btnCat.on("click", function () {
+            var thisNum = $(this).data('number');
+
+            buttonsCat.removeClass(active);
+            $(this).addClass(active);
+
+            sectionsPrice.removeClass(active);
+            $(".price_item[data-number=" + thisNum + "]").addClass(active);
+
+        });
+    }
+
+    activationCategory(buttonsCat);
+
+    ////////
+
+    // history.pushState(null, null, "?category=1&service=66");   //// FOR TESTING
+
+    var currUrl = window.location.href;
+    var idx = currUrl.indexOf("?");
+
+    if(idx !== -1){
+        console.log("We have filter");
+
+        var url = new URL(currUrl);
+        var  sp = new URLSearchParams(url.search);
+
+        var currCat = sp.get('category');
+        var currService = sp.get('service');
+      $(".price_header[data-number=" + currCat + "]").trigger("click");
+
+      var  positionService = $("#cat" + currService ).offset().top;
+        $('body,html').animate({scrollTop: positionService}, 500);
+    }
+
+
+
+</script>
+
 
 </body>
 
