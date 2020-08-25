@@ -28,14 +28,14 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed:700&display=swap&subset=cyrillic" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="css/main.min.css?v=28">
+    <link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
+
 <body class="body">
 <div class="wrapperBlock">
-    <div class="bl_popup">
+    <div class="bl_popup ">
 
         <div class="bl_top">
             <picture class="bl_bonus">
@@ -63,7 +63,7 @@
 
         <div class="bonus_block">
             <picture class="bl_currentBonus">
-                <source media="(max-width: 380px) and (max-height: 670px)" srcset="image/50FS-bonus_380_h670.png">
+                <source media="(max-width: 380px) and (max-height: 800px)" srcset="image/50FS-bonus_380_h670.png">
                 <source media="(max-width: 380px)" srcset="image/50FS-bonus_380.png">
                 <img src="image/50FS-bonus.png" alt="50FS bonus">
             </picture>
@@ -80,7 +80,7 @@
                 <div class="error" id="register-domain-error" style="display:none"></div>
                  <p class="bl_form__text">Получите бонус по смс</p>
                 <label class="bl_form__label ">
-                    <input id="RegisterForm_phone" class="bl_form__input js-input-telephone" type="tel" placeholder="+38"  name="RegisterForm[phone]" data-mask-clearifnotmatch="false" value="+38">
+                    <input id="RegisterForm_phone" class="bl_form__input js-input-telephone" type="tel" placeholder="+38"  name="RegisterForm[phone]" data-mask-clearifnotmatch="false"  value="+38"   >
                      <span id="register-contact-error" class="bl_form__errors"></span>
                 </label>
                     <img class="bl_form__flag" src="image/ua-flag.png" alt="Ukraine flag">
@@ -136,16 +136,15 @@
 
 
 
-
 <script src="libs/jquery.min.js"></script>
 <script src="libs/jquery.maskedinput.min.js"></script>
 
 
 
-<script src="ljs/registerByPhone.js?v=28"></script>
-<script src="ljs/gp_visits.js?v=28"></script>
+<script src="ljs/apiRegister.js"></script>
+<script src="ljs/gp_visits.js"></script>
 
-<script src="js/common.min.js?v=28"></script>
+<script src="js/common.min.js"></script>
 
 
 
