@@ -1,9 +1,0 @@
-node_modules
-
-.idea
-idea/
-prepros.cfg
-app/bower/
-app/fonts/FontAwesome/
-app/fonts/Tahoma/
-package-lock.json
