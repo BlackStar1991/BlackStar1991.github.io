@@ -34,113 +34,116 @@
 
 </head>
 <body class="body">
+<div class="wrapper">
+    <img class="logo" src="image/logo_vulkan.png" alt="Logo Vulkan Original ">
 
-<img class="logo" src="image/logo_vulkan.png" alt="Logo Vulkan Original ">
+    <div class="bl_form__full">
+        <p class="text_top">Приветственные бонусы за регистрацию</p>
+        <img class="bl_form__image" src="image/bonus_section.png" alt="bonus image">
 
-<div class="bl_form__full">
-    <p class="text_top">Приветственные бонусы за регистрацию</p>
-    <img class="bl_form__image" src="image/bonus_section.png" alt="bonus image">
+        <div class="bl_form__wrapper">
+            <form class="bl_form" id="RegisterForm">
+                <div class="error" id="register-domain-error" style="display:none"></div>
 
-<div class="bl_form__wrapper">
-    <form class="bl_form" id="RegisterForm">
-        <div class="error" id="register-domain-error" style="display:none"></div>
-
-        <div class="buttons_group">
-            <button class="bl_form__text btn_email active" type="button">Email</button>
-            <button class="bl_form__text btn_tel" type="button" data-value="phone">Телефон</button>
-        </div>
-
-        <label class="bl_form__label label_email ">
-            <span class="text_form js-text_form">Еmail</span>
-            <input id="RegisterForm_contact" class="bl_form__input js-input-email" type="email" name="RegisterForm[contact]">
-            <span id="register-contact-error" class="bl_form__errors"></span>
-        </label>
-
-        <label class="bl_form__label label_password ">
-            <span class="text_form">Пароль</span>
-            <input id="RegisterForm_password" class="bl_form__input js-input-pass" type="password" name="RegisterForm[password]">
-            <span  class="bl_form__errors"></span>
-        </label>
-
-
-
-        <div class="bl_navigation">
-            <div class="bl_country__full">
-                <span class="text_form">Страна</span>
-                <button class="btn_country" type="button" data-country="Украина">
-                    <span>Украина</span>
-                </button>
-
-                <div class="bl_country__checker hidden ">
-                    <!--  FAKE -->
-                    <label class="bl_navigation__label">
-                        <input id="RegisterForm_country_id_2" type="radio" class="bl_country__checkbox" value="1" name="RegisterForm[country_id]" checked >
-                        <span class="bl_navigation__desc">Украина</span>
-                    </label>
-                    <label class="bl_navigation__label">
-                        <input id="RegisterForm_country_id_1" type="radio" class="bl_country__checkbox" value="2" name="RegisterForm[country_id]">
-                        <span class="bl_navigation__desc">Россия</span>
-                    </label>
+                <div class="buttons_group">
+                    <button class="bl_form__text btn_email active" type="button">Email</button>
+                    <button class="bl_form__text btn_tel" type="button" data-value="phone">Телефон</button>
                 </div>
+
+                <label class="bl_form__label label_email ">
+                    <span class="text_form js-text_form">Еmail</span>
+                    <input id="RegisterForm_contact" class="bl_form__input js-input-email" type="email" name="RegisterForm[contact]">
+                    <span id="register-contact-error" class="bl_form__errors"></span>
+                </label>
+
+                <label class="bl_form__label label_password ">
+                    <span class="text_form">Пароль</span>
+                    <input id="RegisterForm_password" class="bl_form__input js-input-pass" type="password" name="RegisterForm[password]">
+                    <span  class="bl_form__errors"></span>
+                </label>
+
+
+
+                <div class="bl_navigation">
+                    <div class="bl_country__full">
+                        <span class="text_form">Страна</span>
+                        <button class="btn_country" type="button" data-country="Украина">
+                            <span>Украина</span>
+                        </button>
+
+                        <div class="bl_country__checker hidden ">
+                            <!--  FAKE -->
+                            <label class="bl_navigation__label">
+                                <input id="RegisterForm_country_id_2" type="radio" class="bl_country__checkbox" value="1" name="RegisterForm[country_id]" checked >
+                                <span class="bl_navigation__desc">Украина</span>
+                            </label>
+                            <label class="bl_navigation__label">
+                                <input id="RegisterForm_country_id_1" type="radio" class="bl_country__checkbox" value="2" name="RegisterForm[country_id]">
+                                <span class="bl_navigation__desc">Россия</span>
+                            </label>
+                        </div>
+                    </div>
+
+
+                    <div class="bl_currency__full">
+                        <span class="text_form">Валюта</span>
+
+                        <button class="btn_currency" type="button" data-currency="UAH">
+                            <span>UAH</span>
+                        </button>
+
+                        <div class="bl_currency__checker hidden">
+                            <label class="bl_navigation__label">
+                                <input id="RegisterForm_currency_id_1" type="radio" class="bl_currency__checkbox" value="1" name="RegisterForm[currency_id]" checked>
+                                <span class="bl_navigation__desc">UAH</span>
+                            </label>
+
+                            <label class="bl_navigation__label">
+                                <input id="RegisterForm_currency_id_2" type="radio" class="bl_currency__checkbox" value="2" name="RegisterForm[currency_id]">
+                                <span class="bl_navigation__desc">RUB</span>
+                            </label>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <input type="hidden" name="RegisterForm[agree]" value="1">
+
+
+                <div class="popup-loader">
+                    <img class="loader-img" src="./image/2.svg" alt="loader">
+                </div>
+
+                <button class="btn_submitForm">
+                    <span id="register" class="btn_submitForm__text">Регистрация</span>
+                </button>
+            </form>
+            <p class="text_alreadyRegistered">Вы уже зарегистрированы? <a href="#" class="text_alreadyRegistered__link casino-link" id="login">Войти</a> </p>
+            <div id="social-provider" class="soc_buttons">
+                <a id="Google" href="#" class="soc_link icon-google"></a>
+                <a id="Vkontakte" href="#" class="soc_link icon-vk"></a>
+                <a id="Mailru" href="#" class="soc_link icon-dog"></a>
+                <a id="Twitter" href="#" class="soc_link icon-tw"></a>
+                <a id="Odnoklassniki" href="#" class="soc_link icon-odn"></a>
             </div>
 
 
-            <div class="bl_currency__full">
-                <span class="text_form">Валюта</span>
+            <p class="text_alreadyRegistered">Нажимая на кнопку, я принимаю <a href="#" class="text_alreadyRegistered__link casino-link" id="login2">положения и условия</a> </p>
 
-                <button class="btn_currency" type="button" data-currency="UAH">
-                    <span>UAH</span>
-                </button>
-
-                <div class="bl_currency__checker hidden">
-                    <label class="bl_navigation__label">
-                        <input id="RegisterForm_currency_id_1" type="radio" class="bl_currency__checkbox" value="1" name="RegisterForm[currency_id]" checked>
-                        <span class="bl_navigation__desc">UAH</span>
-                    </label>
-
-                    <label class="bl_navigation__label">
-                        <input id="RegisterForm_currency_id_2" type="radio" class="bl_currency__checkbox" value="2" name="RegisterForm[currency_id]">
-                        <span class="bl_navigation__desc">RUB</span>
-                    </label>
-                </div>
-
-
-
-            </div>
         </div>
-
-
-
-
-
-
-
-
-        <input type="hidden" name="RegisterForm[agree]" value="1">
-
-
-        <div class="popup-loader">
-            <img class="loader-img" src="./image/2.svg" alt="loader">
-        </div>
-
-        <button class="btn_submitForm">
-            <span id="register" class="btn_submitForm__text">Регистрация</span>
-        </button>
-    </form>
-    <p class="text_alreadyRegistered">Вы уже зарегистрированы? <a href="#" class="text_alreadyRegistered__link casino-link" id="login">Войти</a> </p>
-    <div id="social-provider" class="soc_buttons">
-        <a id="Google" href="#" class="soc_link icon-google"></a>
-        <a id="Vkontakte" href="#" class="soc_link icon-vk"></a>
-        <a id="Mailru" href="#" class="soc_link icon-dog"></a>
-        <a id="Twitter" href="#" class="soc_link icon-tw"></a>
-        <a id="Odnoklassniki" href="#" class="soc_link icon-odn"></a>
     </div>
 
-
-    <p class="text_alreadyRegistered">Нажимая на кнопку, я принимаю <a href="#" class="text_alreadyRegistered__link casino-link" id="login2">положения и условия</a> </p>
-
 </div>
-</div>
+
 
 <script src="libs/jquery.min.js"></script>
 
