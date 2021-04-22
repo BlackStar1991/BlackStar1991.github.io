@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.eadaec48.chunk.css",
+    "main.css": "/static/css/main.4d8b6045.chunk.css",
     "main.js": "/static/js/main.051a40c1.chunk.js",
     "main.js.map": "/static/js/main.051a40c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ca70962.js",
@@ -10,7 +10,7 @@
     "static/js/2.e796e057.chunk.js.map": "/static/js/2.e796e057.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.abcd5c43.chunk.css.map": "/static/css/2.abcd5c43.chunk.css.map",
-    "static/css/main.eadaec48.chunk.css.map": "/static/css/main.eadaec48.chunk.css.map",
+    "static/css/main.4d8b6045.chunk.css.map": "/static/css/main.4d8b6045.chunk.css.map",
     "static/js/2.e796e057.chunk.js.LICENSE.txt": "/static/js/2.e796e057.chunk.js.LICENSE.txt",
     "static/media/base.scss": "/static/media/FiraSans-SemiBold.f7ab801d.woff2",
     "static/media/coin.5626c59c.svg": "/static/media/coin.5626c59c.svg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.4ca70962.js",
     "static/css/2.abcd5c43.chunk.css",
     "static/js/2.e796e057.chunk.js",
-    "static/css/main.eadaec48.chunk.css",
+    "static/css/main.4d8b6045.chunk.css",
     "static/js/main.051a40c1.chunk.js"
   ]
 }
