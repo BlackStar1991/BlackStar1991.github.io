@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3580c2ff-783e-4906-8315-ff658acfafbc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/2.abcd5c43.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/2.abcd5c43.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.381c05aa.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.381c05aa.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.41062826.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.41062826.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.41062826.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e1b00c52.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.e1b00c52.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.4ca70962.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime-main.4ca70962.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Black.555f70ae.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Black.62ea019f.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Black.715d26d9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Bold.3919333f.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Bold.83a12dd7.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Bold.ec5e8234.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Medium.653ca295.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Medium.9e604b4c.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Medium.e5bdd3fe.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Regular.1c0bf072.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Regular.309c66b2.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-Regular.bed54b93.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-SemiBold.9ce8b54b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-SemiBold.b6ffb492.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/FiraSans-SemiBold.f7ab801d.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/arrow_down.5ccd0807.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/chest.0488d2e1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/coin.5626c59c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/exit.b2039eb7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/header-bg.5d40a0e3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/icon-bonus.fdde2203.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/icon-menu.e1f81753.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/info.1495faaf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/profile.2e4c0bfc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/rotate.b14547ee.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/sources-of-chips.4842b22c.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/tournament-1-big.74dd5a83.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/tournament-1.4c3021e6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +32,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
-    <option name="y" value="488" />
+    <option name="x" value="8" />
+    <option name="y" value="180" />
     <option name="width" value="1678" />
     <option name="height" value="593" />
   </component>
@@ -180,12 +135,12 @@
       <workItem from="1618942558747" duration="617000" />
       <workItem from="1619022466388" duration="1330000" />
       <workItem from="1619107832645" duration="1481000" />
-      <workItem from="1619285378397" duration="2324000" />
+      <workItem from="1619285378397" duration="3535000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23947000" />
+    <option name="totallyTimeSpent" value="25158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -202,7 +157,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.1560758" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.28874025" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
