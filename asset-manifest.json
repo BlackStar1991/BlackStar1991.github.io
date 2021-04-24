@@ -1,33 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d8b6045.chunk.css",
-    "main.js": "/static/js/main.051a40c1.chunk.js",
-    "main.js.map": "/static/js/main.051a40c1.chunk.js.map",
+    "main.css": "/static/css/main.381c05aa.chunk.css",
+    "main.js": "/static/js/main.dfc3bf4b.chunk.js",
+    "main.js.map": "/static/js/main.dfc3bf4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ca70962.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ca70962.js.map",
     "static/css/2.abcd5c43.chunk.css": "/static/css/2.abcd5c43.chunk.css",
-    "static/js/2.e796e057.chunk.js": "/static/js/2.e796e057.chunk.js",
-    "static/js/2.e796e057.chunk.js.map": "/static/js/2.e796e057.chunk.js.map",
+    "static/js/2.41062826.chunk.js": "/static/js/2.41062826.chunk.js",
+    "static/js/2.41062826.chunk.js.map": "/static/js/2.41062826.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.abcd5c43.chunk.css.map": "/static/css/2.abcd5c43.chunk.css.map",
-    "static/css/main.4d8b6045.chunk.css.map": "/static/css/main.4d8b6045.chunk.css.map",
-    "static/js/2.e796e057.chunk.js.LICENSE.txt": "/static/js/2.e796e057.chunk.js.LICENSE.txt",
-    "static/media/base.scss": "/static/media/FiraSans-SemiBold.f7ab801d.woff2",
-    "static/media/coin.5626c59c.svg": "/static/media/coin.5626c59c.svg",
+    "static/css/main.381c05aa.chunk.css.map": "/static/css/main.381c05aa.chunk.css.map",
+    "static/js/2.41062826.chunk.js.LICENSE.txt": "/static/js/2.41062826.chunk.js.LICENSE.txt",
+    "static/media/base.scss": "/static/media/arrow_down.5ccd0807.svg",
+    "static/media/chest.0488d2e1.jpg": "/static/media/chest.0488d2e1.jpg",
+    "static/media/sourcesOfCoins.scss": "/static/media/coin.5626c59c.svg",
     "static/media/exit.b2039eb7.svg": "/static/media/exit.b2039eb7.svg",
     "static/media/header.scss": "/static/media/header-bg.5d40a0e3.jpg",
     "static/media/icon-bonus.fdde2203.svg": "/static/media/icon-bonus.fdde2203.svg",
     "static/media/icon-menu.e1f81753.svg": "/static/media/icon-menu.e1f81753.svg",
     "static/media/info.1495faaf.svg": "/static/media/info.1495faaf.svg",
     "static/media/profile.2e4c0bfc.svg": "/static/media/profile.2e4c0bfc.svg",
+    "static/media/rotate.b14547ee.mp4": "/static/media/rotate.b14547ee.mp4",
+    "static/media/sources-of-chips.4842b22c.svg": "/static/media/sources-of-chips.4842b22c.svg",
     "static/media/tournament-1-big.74dd5a83.jpg": "/static/media/tournament-1-big.74dd5a83.jpg",
     "static/media/tournament-1.4c3021e6.jpg": "/static/media/tournament-1.4c3021e6.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ca70962.js",
     "static/css/2.abcd5c43.chunk.css",
-    "static/js/2.e796e057.chunk.js",
-    "static/css/main.4d8b6045.chunk.css",
-    "static/js/main.051a40c1.chunk.js"
+    "static/js/2.41062826.chunk.js",
+    "static/css/main.381c05aa.chunk.css",
+    "static/js/main.dfc3bf4b.chunk.js"
   ]
 }

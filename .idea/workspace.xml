@@ -40,11 +40,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="74" />
-    <option name="y" value="313" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="488" />
     <option name="width" value="1678" />
-    <option name="height" value="587" />
+    <option name="height" value="593" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -137,12 +137,12 @@
       <workItem from="1618939971175" duration="597000" />
       <workItem from="1618942558747" duration="617000" />
       <workItem from="1619022466388" duration="1330000" />
-      <workItem from="1619107832645" duration="444000" />
+      <workItem from="1619107832645" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20586000" />
+    <option name="totallyTimeSpent" value="21623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
