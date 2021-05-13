@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef3d6051.chunk.css",
-    "main.js": "/static/js/main.cc70af86.chunk.js",
-    "main.js.map": "/static/js/main.cc70af86.chunk.js.map",
+    "main.css": "/static/css/main.82124251.chunk.css",
+    "main.js": "/static/js/main.3d91dddd.chunk.js",
+    "main.js.map": "/static/js/main.3d91dddd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ca70962.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ca70962.js.map",
     "static/css/2.abcd5c43.chunk.css": "/static/css/2.abcd5c43.chunk.css",
-    "static/js/2.b969155d.chunk.js": "/static/js/2.b969155d.chunk.js",
-    "static/js/2.b969155d.chunk.js.map": "/static/js/2.b969155d.chunk.js.map",
+    "static/js/2.899aa456.chunk.js": "/static/js/2.899aa456.chunk.js",
+    "static/js/2.899aa456.chunk.js.map": "/static/js/2.899aa456.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.abcd5c43.chunk.css.map": "/static/css/2.abcd5c43.chunk.css.map",
-    "static/css/main.ef3d6051.chunk.css.map": "/static/css/main.ef3d6051.chunk.css.map",
-    "static/js/2.b969155d.chunk.js.LICENSE.txt": "/static/js/2.b969155d.chunk.js.LICENSE.txt",
+    "static/css/main.82124251.chunk.css.map": "/static/css/main.82124251.chunk.css.map",
+    "static/js/2.899aa456.chunk.js.LICENSE.txt": "/static/js/2.899aa456.chunk.js.LICENSE.txt",
     "static/media/base.scss": "/static/media/icon-checkbox.b149c7a8.svg",
     "static/media/at-icon.e97e217a.svg": "/static/media/at-icon.e97e217a.svg",
     "static/media/chest.0488d2e1.jpg": "/static/media/chest.0488d2e1.jpg",
@@ -28,15 +28,14 @@
     "static/media/profile.2e4c0bfc.svg": "/static/media/profile.2e4c0bfc.svg",
     "static/media/rotate.b14547ee.mp4": "/static/media/rotate.b14547ee.mp4",
     "static/media/sources-of-chips.4842b22c.svg": "/static/media/sources-of-chips.4842b22c.svg",
-    "static/media/tournament-1-big.74dd5a83.jpg": "/static/media/tournament-1-big.74dd5a83.jpg",
-    "static/media/tournament-1.4c3021e6.jpg": "/static/media/tournament-1.4c3021e6.jpg",
+    "static/media/prizeFund.scss": "/static/media/star-silver.51ba10f4.svg",
     "static/media/сongratulations.47235aa9.svg": "/static/media/сongratulations.47235aa9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4ca70962.js",
     "static/css/2.abcd5c43.chunk.css",
-    "static/js/2.b969155d.chunk.js",
-    "static/css/main.ef3d6051.chunk.css",
-    "static/js/main.cc70af86.chunk.js"
+    "static/js/2.899aa456.chunk.js",
+    "static/css/main.82124251.chunk.css",
+    "static/js/main.3d91dddd.chunk.js"
   ]
 }
