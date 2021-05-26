@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1528431d.chunk.css",
-    "main.js": "/static/js/main.671262de.chunk.js",
-    "main.js.map": "/static/js/main.671262de.chunk.js.map",
+    "main.css": "/static/css/main.d5617450.chunk.css",
+    "main.js": "/static/js/main.adbe408c.chunk.js",
+    "main.js.map": "/static/js/main.adbe408c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4ca70962.js",
     "runtime-main.js.map": "/static/js/runtime-main.4ca70962.js.map",
     "static/css/2.abcd5c43.chunk.css": "/static/css/2.abcd5c43.chunk.css",
-    "static/js/2.16a73436.chunk.js": "/static/js/2.16a73436.chunk.js",
-    "static/js/2.16a73436.chunk.js.map": "/static/js/2.16a73436.chunk.js.map",
+    "static/js/2.3ea4649e.chunk.js": "/static/js/2.3ea4649e.chunk.js",
+    "static/js/2.3ea4649e.chunk.js.map": "/static/js/2.3ea4649e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.abcd5c43.chunk.css.map": "/static/css/2.abcd5c43.chunk.css.map",
-    "static/css/main.1528431d.chunk.css.map": "/static/css/main.1528431d.chunk.css.map",
-    "static/js/2.16a73436.chunk.js.LICENSE.txt": "/static/js/2.16a73436.chunk.js.LICENSE.txt",
+    "static/css/main.d5617450.chunk.css.map": "/static/css/main.d5617450.chunk.css.map",
+    "static/js/2.3ea4649e.chunk.js.LICENSE.txt": "/static/js/2.3ea4649e.chunk.js.LICENSE.txt",
     "static/media/base.scss": "/static/media/icon-checkbox.b149c7a8.svg",
     "static/media/at-icon.e97e217a.svg": "/static/media/at-icon.e97e217a.svg",
+    "static/media/chest-open.df12752b.svg": "/static/media/chest-open.df12752b.svg",
     "static/media/chest.0488d2e1.jpg": "/static/media/chest.0488d2e1.jpg",
-    "static/media/sourcesOfCoins.scss": "/static/media/coin.5626c59c.svg",
+    "static/media/chest.b8980a5d.svg": "/static/media/chest.b8980a5d.svg",
+    "static/media/chips.7d3fbdcd.png": "/static/media/chips.7d3fbdcd.png",
+    "static/media/circularSlider.scss": "/static/media/shadows.04102eaa.png",
     "static/media/menu.scss": "/static/media/css_sprites.68d9096f.png",
     "static/media/exit.b2039eb7.svg": "/static/media/exit.b2039eb7.svg",
     "static/media/google-icon.021c57ba.svg": "/static/media/google-icon.021c57ba.svg",
@@ -34,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.4ca70962.js",
     "static/css/2.abcd5c43.chunk.css",
-    "static/js/2.16a73436.chunk.js",
-    "static/css/main.1528431d.chunk.css",
-    "static/js/main.671262de.chunk.js"
+    "static/js/2.3ea4649e.chunk.js",
+    "static/css/main.d5617450.chunk.css",
+    "static/js/main.adbe408c.chunk.js"
   ]
 }
