@@ -1,0 +1,454 @@
+
+animation_double_up_cleo.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+art/cleo_doubleup/cleo_arm_forearm_r
+  rotate: false
+  xy: 1781, 233
+  size: 227, 175
+  orig: 227, 175
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_arm_top_l
+  rotate: true
+  xy: 1529, 629
+  size: 244, 296
+  orig: 244, 296
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_arm_top_r
+  rotate: true
+  xy: 1523, 236
+  size: 224, 256
+  orig: 224, 256
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_armband_r
+  rotate: false
+  xy: 1327, 150
+  size: 142, 150
+  orig: 142, 150
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_armserpent_l
+  rotate: true
+  xy: 1327, 20
+  size: 128, 161
+  orig: 128, 161
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_body_base
+  rotate: false
+  xy: 0, 1255
+  size: 494, 791
+  orig: 494, 791
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_breast_l
+  rotate: false
+  xy: 1827, 589
+  size: 218, 284
+  orig: 218, 284
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_breast_r
+  rotate: false
+  xy: 1285, 302
+  size: 236, 286
+  orig: 236, 286
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_bikini
+  rotate: true
+  xy: 605, 340
+  size: 428, 344
+  orig: 428, 344
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_bikini_cloth
+  rotate: true
+  xy: 334, 276
+  size: 449, 269
+  orig: 449, 269
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_bikini_metal
+  rotate: false
+  xy: 1567, 1459
+  size: 437, 146
+  orig: 437, 146
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_collar
+  rotate: false
+  xy: 523, 770
+  size: 359, 284
+  orig: 359, 284
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_hips
+  rotate: false
+  xy: 884, 847
+  size: 367, 189
+  orig: 367, 189
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_necklace
+  rotate: false
+  xy: 912, 11
+  size: 293, 215
+  orig: 293, 215
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_nipples
+  rotate: false
+  xy: 1002, 1370
+  size: 387, 106
+  orig: 387, 106
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_clothes_top
+  rotate: false
+  xy: 496, 1411
+  size: 504, 635
+  orig: 504, 635
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_crown
+  rotate: false
+  xy: 1529, 462
+  size: 295, 165
+  orig: 295, 165
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_forearm_l
+  rotate: false
+  xy: 1826, 410
+  size: 191, 177
+  orig: 191, 177
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_hair_1_l
+  rotate: false
+  xy: 2000, 1657
+  size: 39, 389
+  orig: 39, 389
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_hair_1_r
+  rotate: false
+  xy: 1368, 991
+  size: 41, 377
+  orig: 41, 377
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_hair_2_l
+  rotate: false
+  xy: 1319, 1021
+  size: 47, 347
+  orig: 47, 347
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_hair_2_r
+  rotate: true
+  xy: 424, 6
+  size: 40, 359
+  orig: 40, 359
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_hand_l
+  rotate: false
+  xy: 1256, 590
+  size: 271, 283
+  orig: 271, 283
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_hand_r
+  rotate: true
+  xy: 0, 0
+  size: 268, 274
+  orig: 268, 274
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_base
+  rotate: true
+  xy: 951, 228
+  size: 278, 332
+  orig: 278, 332
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_cheek_shadow
+  rotate: true
+  xy: 1207, 41
+  size: 185, 118
+  orig: 185, 118
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_base_l
+  rotate: true
+  xy: 1285, 235
+  size: 65, 20
+  orig: 65, 20
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_base_r
+  rotate: true
+  xy: 920, 802
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_closed_l
+  rotate: true
+  xy: 2010, 343
+  size: 65, 38
+  orig: 65, 38
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_closed_r
+  rotate: true
+  xy: 884, 770
+  size: 75, 34
+  orig: 75, 34
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_iris_l
+  rotate: false
+  xy: 947, 1389
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_iris_r
+  rotate: false
+  xy: 2000, 1635
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_shine_l
+  rotate: false
+  xy: 1471, 150
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eye_shine_r
+  rotate: true
+  xy: 1309, 1025
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eyelid_lower_l
+  rotate: false
+  xy: 1207, 19
+  size: 59, 20
+  orig: 59, 20
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eyelid_lower_r
+  rotate: true
+  xy: 1256, 517
+  size: 71, 23
+  orig: 71, 23
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eyelid_top_l
+  rotate: true
+  xy: 2019, 522
+  size: 65, 29
+  orig: 65, 29
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_eyelid_top_r
+  rotate: false
+  xy: 523, 736
+  size: 77, 32
+  orig: 77, 32
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_kiss_1
+  rotate: false
+  xy: 276, 5
+  size: 146, 106
+  orig: 146, 106
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_kiss_2
+  rotate: false
+  xy: 412, 168
+  size: 154, 106
+  orig: 154, 106
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_lip_lower
+  rotate: true
+  xy: 1253, 919
+  size: 117, 54
+  orig: 117, 54
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_lip_top
+  rotate: false
+  xy: 1471, 160
+  size: 152, 74
+  orig: 152, 74
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_lips_open
+  rotate: false
+  xy: 1899, 173
+  size: 103, 58
+  orig: 103, 58
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_teeth_lower
+  rotate: true
+  xy: 912, 255
+  size: 83, 26
+  orig: 83, 26
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_teeth_top
+  rotate: true
+  xy: 496, 1325
+  size: 84, 19
+  orig: 84, 19
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_head_tongue
+  rotate: false
+  xy: 1391, 1460
+  size: 62, 16
+  orig: 62, 16
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_shoulder_l
+  rotate: true
+  xy: 276, 113
+  size: 155, 134
+  orig: 155, 134
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_shoulder_r
+  rotate: false
+  xy: 424, 51
+  size: 144, 115
+  orig: 144, 115
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_smoke_1
+  rotate: false
+  xy: 1567, 1607
+  size: 431, 439
+  orig: 431, 439
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_smoke_2
+  rotate: false
+  xy: 1002, 1478
+  size: 563, 568
+  orig: 563, 568
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_underlay_hair
+  rotate: false
+  xy: 0, 270
+  size: 332, 455
+  orig: 332, 455
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_wristband_back_l
+  rotate: false
+  xy: 1490, 10
+  size: 101, 148
+  orig: 101, 148
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/cleo_wristband_l
+  rotate: true
+  xy: 1625, 133
+  size: 101, 148
+  orig: 101, 148
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/coins
+  rotate: false
+  xy: 523, 1056
+  size: 422, 353
+  orig: 422, 353
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_bulb_1
+  rotate: false
+  xy: 605, 48
+  size: 305, 290
+  orig: 305, 290
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_bulb_2
+  rotate: false
+  xy: 1411, 1167
+  size: 305, 290
+  orig: 305, 290
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_bulb_3
+  rotate: false
+  xy: 1718, 1167
+  size: 305, 290
+  orig: 305, 290
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_bulb_4
+  rotate: false
+  xy: 1411, 875
+  size: 305, 290
+  orig: 305, 290
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_bulb_empty
+  rotate: false
+  xy: 1718, 875
+  size: 305, 290
+  orig: 305, 290
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_glow
+  rotate: false
+  xy: 947, 1038
+  size: 370, 330
+  orig: 370, 330
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_old_glow
+  rotate: true
+  xy: 0, 727
+  size: 526, 521
+  orig: 526, 521
+  offset: 0, 0
+  index: -1
+art/cleo_doubleup/flower_old_sparkles
+  rotate: false
+  xy: 951, 508
+  size: 303, 337
+  orig: 303, 337
+  offset: 0, 0
+  index: -1
+shapes/bg_white
+  rotate: false
+  xy: 1309, 1015
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+text/x2
+  rotate: false
+  xy: 1775, 164
+  size: 122, 67
+  orig: 122, 67
+  offset: 0, 0
+  index: -1
