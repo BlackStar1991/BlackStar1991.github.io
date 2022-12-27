@@ -1,15 +1,504 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta property="og:title" content="Поиграй с Клеопатрой"/>
-    <meta property="og:description" content="Угадай где бонус!"/>
-    <title>Клеопатра. Угадай где бонус!</title>
-</head>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Memory board</title>
+  </head>
 
-<body>
-<h1>TEST</h1>
-</body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img src="./img/Header/Логотип.svg" alt="Logo" />
+          </div>
+
+          <div class="hamburger-menu">
+            <div class="bar"></div>
+          </div>
+          <div class="header__hamburger-menu">
+            <nav class="header__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Біографія</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Життя</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Спогади</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Залишити свої спогади</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__arrow">
+              <button onclick="myFunction()" class="arrow__button"></button>
+
+              <div id="social" class="arrow__social">
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/FB.svg" alt="FB"
+                /></a>
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/LINKEDIN.svg" alt="LINKEDIN"
+                /></a>
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/INSTAGRAM.svg" alt="INSTAGRAM"
+                /></a>
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/TWITTER.svg" alt="TWITTER"
+                /></a>
+              </div>
+            </div>
+
+            <div class="header__language language" id="language">
+              <a class="language language-button" id="ua">ENG</a>
+              <a class="language language-button active" id="en"> UA</a>
+            </div>
+            <div class="header__social">
+              <div class="social__mobile">
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/TWITTER.svg" alt="TWITTER"
+                /></a>
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/FB.svg" alt="FB"
+                /></a>
+              </div>
+
+              <div class="social__mobile">
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/INSTAGRAM.svg" alt="INSTAGRAM"
+                /></a>
+                <a href="#" target="_blank"
+                  ><img src="./img/Header/LINKEDIN.svg" alt="LINKEDIN"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main__container">
+          <section class="block-life">
+            <div class="block-life__container">
+              <div class="block-life__titel">
+                <div class="block-life__foto">
+                  <img
+                    class="block-life__foto-mobile"
+                    src="img/Main/Block-life/Фото-мобайл.svg"
+                    alt="Turenkov"
+                  />
+                  <img
+                    class="block-life__foto-tablet"
+                    src="img/Main/Block-life/Фото-планшет.svg"
+                    alt="Turenkov"
+                  />
+                  <img
+                    class="block-life__foto-desktop"
+                    src="img/Main/Block-life/Фото-десктоп.svg"
+                    alt="Turenkov"
+                  />
+                </div>
+                <div class="block-life__titel-big">
+                  <div class="block-life__titel-big-text">
+                    <span>Тюренков</span> <span>Олексій</span> <br />
+                    <span>Валерійович</span>
+                  </div>
+
+                  <div class="block-life__titel-small">
+                    <div class="block-life__titel-small-text">
+                      Людина-Легенда <br />
+                      Вінницької ІТ-Академії
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-life__content">
+                <div class="block-life__content-text">
+                  "Прийшов певний час, коли я зрозумів, що хочу розвивати і
+                  давати свої знання іншим. Тому, що крім можливості навчати
+                  когось, це також відмінна можливість розвивати себе. Так я і
+                  потрапив у Вінницьку ІТ-Академію. Навіть не знаю хто кого
+                  знайшов, чи ІТ-Академія мене, чи я її.”
+                </div>
+                <div class="block-life__signature">
+                  <img
+                    src="img/Main/Block-life/О. Тюренков.svg"
+                    alt="signature"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="main__memories memories">
+            <div class="memories__container">
+              <div class="memories__title">Спогади</div>
+
+              <div class="memories-slider slider-wrapper">
+                <div class="memories-slider swiper-container">
+                  <div class="slider-wrapper swiper-wrapper">
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Вова Химич.png"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Вова Химич
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text">
+                            “Навіщо мені синиця в небі, якщо в руках жирний
+                            гусь.”
+                          </div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Вова Химич</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Чудовий Senior з двома плюсиками. Олексія любили всі
+                          студенти й викладачі. Мені подобалось те, як легко він
+                          підходив до викладення пар й загалом, якою людиною
+                          був. Гумор мав місце бути в кожній розмові, поруч із
+                          Олексієм. Я не встиг познайомитись із ним краще за
+                          межами нашої академії, але пам'ятаю його наставлення
+                          під час перекурів між парами. Коли він виходив курити,
+                          всі бігли за ним, слухали різні історії й були під
+                          впливом атмосфери теплого спокою. Саме Олексій сподвиг
+                          мене пройти в EPAM та зайнятись java, хоча сам
+                          викладав далеко не її. Здається, що у Олексія було
+                          мільйон друзів, і нуль ворогів. Вічна пам'ять Олексію
+                          Тюренкову, тому, хто залишив суттєвий відбиток в наших
+                          серцях, сам того не розуміючи.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Olha Trokhymchuk.png"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Olha Trokhymchuk
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Olha Trokhymchuk</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Пам'ятаю, як почула оплески із однієї з аудиторій.
+                          Коли підійшла до відчинених дверей, то побачила
+                          аудиторію в якій не було жодного вільного місця. І
+                          навіть були студенти, які стояли. Оплески були
+                          призначені надзвичайно талановитому програмісту і
+                          викладачу Олексію Тюренкову. І це була його звичайна
+                          пара. Студенти його обожнювали. Рада, що була особисто
+                          знайома із цією людиною-легендою.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Дядя Вова.png"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            дядя Вова
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">дядя Вова</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Людина у якої був максимальний IQ і дуже висока
+                          порядність. А також Олексій завжди міг допомогти
+                          порадою чи технічною порадою.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Тешабаєв Дмитро
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Тешабаєв Дмитро</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Олексій був чудовою, веселою людиною і сильним
+                          ментором з яким можна було порадитися з будь якого
+                          приводу та отримати допомогу.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Інеса Дружкова
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Інеса Дружкова</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Олексій був людиною з великої букви. Підтримував та
+                          мотивував своїх учнів. З чудовим почуттям гумору
+                          проводив заняття. Невтомно працював з ранку до пізньої
+                          ночі, щоб ті хто вирішив змінити своє життя за
+                          допомогою ІТ, обов'язково справились.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Максімов Роман
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Максімов Роман</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Олексій, був відкритою людиною. Не завжди ідеальний з
+                          ідеальними знаннями, але завжди спонукаючий до
+                          роздумів і прийняття власних рішень. Завдяки інтересу
+                          до технологій, яким Олексій надихнув мене, мені
+                          вдалось опанувати професію програміста.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Василь Глухенький
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Василь Глухенький</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          На парах Олексія я неконтрольовано либився, чи то
+                          через те, шо ніфіга в тій абстракції не було ясно, і
+                          це була "посмішка Арнольда", чи то тому що він теж
+                          либився і розказував анекдоти. Найвеселіший викладач в
+                          ІТ-Академії, і, напевно, єдиний на парах якого мізки
+                          боліли абсолютно у всіх, в нашій групі - ще і животи
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Попадюк Андрій
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Попадюк Андрій</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Дуже добра та позитивна людина. Фахівець найвищого
+                          гатунку. Земля йому пухом.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Денис Дзюбенко
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Денис Дзюбенко</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Чудова та світла людина, прекрасний ментор та викладач
+                        </div>
+                      </div>
+                    </div>
+                    <div class="memories-slider__slide swiper-slide">
+                      <div class="memories-slider__image slider-image">
+                        <div class="slider-image__foto">
+                          <img
+                            src="./img/Main/Block-memories/Nofoto.svg"
+                            alt="Картинка"
+                          />
+                        </div>
+                        <div class="memories-slider slider-image__text">
+                          <div class="memories-slider name-tablet">
+                            Олена Дубровіна
+                          </div>
+                          <div class="memories-slider who-tablet">колега</div>
+                          <div class="memories-slider image-text"></div>
+                        </div>
+                      </div>
+                      <div class="memories-slider__text">
+                        <div class="text__name">Олена Дубровіна</div>
+                        <div class="text__who">колега</div>
+                        <div class="text__memories">
+                          Олексій - один із тих вчителів, які залишаються в
+                          серці назавжди, один із тих, чиї поради і
+                          висловлювання проходять червоною стрічкою через усе
+                          життя. Я завершила навчання в IT-Академії ще у 2015-му
+                          році і тоді ж бачилась із ним востаннє, хоча дуже
+                          часто з теплотою згадувала і його жарти, і цінні
+                          поради, які й досі допомагають мені і в житті, і в
+                          роботі. Впевнена, що це величезна втрата не тільки для
+                          мене, але і для всіх, хто коли-небудь знав Олексія...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
+              <div class="memories__button">
+                <a
+                  href="https://docs.google.com/forms/d/14f803zGceI9hM6XI_5QT9YPTR9ZeAtd2u3HV1rg-uPE/edit"
+                  target="_blank"
+                  class="button-memories"
+                  >Залишити свої спогади</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__team team">
+            <div class="team__logo">
+              <a href="#" target="_blank" class="team__link-img">
+                <img
+                  src="./img/Footer/teams.svg"
+                  alt="Logo"
+                  class="team__img"
+                />
+              </a>
+            </div>
+            <div class="team__text">
+              <a href="#" target="_blank" class="team__link-text">
+                Розроблено студентами <br />
+                Вінницької ІТ-Академії 2022</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JS  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
